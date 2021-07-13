@@ -1,0 +1,28 @@
+nav{
+font-size:1.4rem;
+padding: 3% 4% 5%;
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+   
+    list-style-type: none;
+    float: right;
+}
+li{
+     display: inline;
+    
+    padding: 0.3rem;
+}
+.linkItem{
+    text-decoration: none;
+}
+
+
