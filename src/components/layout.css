@@ -1,5 +1,24 @@
-body {
+ * {
     background-color: #BB7171;
     color: white;
-    font-size:large
+    
 }
+
+nav{
+font-size:1.7rem;
+
+
+}
+ul {
+    list-style-type: none;
+}
+li{
+    display: inline;
+    float: right;
+    padding: 0.3rem;
+}
+.linkItem{
+    text-decoration: none;
+}
+
+

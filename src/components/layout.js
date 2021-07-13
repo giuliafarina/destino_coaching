@@ -4,7 +4,7 @@ import "./layout.css"
 
 
 const Layout = ({ children }) => {
-    return <body>{children}</body>
+    return <div>{children}</div>
 }
 
 export default Layout;
