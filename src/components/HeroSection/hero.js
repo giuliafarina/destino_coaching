@@ -13,6 +13,12 @@ const Hero = () => {
         <p>
             Permanence of the stars a billion trillion kindling the energy hidden in matter with pretty stories for which there's little good evidence hearts of the stars billions upon billions? Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt brain is the seed of intelligence are creatures of the cosmos brain is the seed of intelligence astonishment made in the interiors of collapsing stars. The sky calls to us not a sunrise but a galaxyrise Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit Sea of Tranquility quis nostrum exercitationem ullam corporis suscipit laboriosam?
         </p>
+        <p>
+            Permanence of the stars a billion trillion kindling the energy hidden in matter with pretty stories for which there's little good evidence hearts of the stars billions upon billions? Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt brain is the seed of intelligence are creatures of the cosmos brain is the seed of intelligence astonishment made in the interiors of collapsing stars. The sky calls to us not a sunrise but a galaxyrise Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit Sea of Tranquility quis nostrum exercitationem ullam corporis suscipit laboriosam?
+        </p>
+        <p>
+            Permanence of the stars a billion trillion kindling the energy hidden in matter with pretty stories for which there's little good evidence hearts of the stars billions upon billions? Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt brain is the seed of intelligence are creatures of the cosmos brain is the seed of intelligence astonishment made in the interiors of collapsing stars. The sky calls to us not a sunrise but a galaxyrise Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit Sea of Tranquility quis nostrum exercitationem ullam corporis suscipit laboriosam?
+        </p>
 
     </div>
 }

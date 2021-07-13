@@ -1,11 +1,14 @@
 import * as React from "react"
 import Layout from "../components/layout";
-import Navbar from "../components/NavBarSection/navbar";
+import Menu from "../components/MenuSection/menu";
 import Hero from "../components/HeroSection/hero";
+import Contacts from "../components/ContactSection/Contacts";
 
 const IndexPage = () => {
   return (
-    <Layout><Navbar /><Hero />
+    <Layout><Menu /><Hero />
+      <Contacts idProp="Contacts" />
+
 
     </Layout>
   )

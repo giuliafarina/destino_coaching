@@ -1,6 +1,12 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@300&display=swap');
+ 
+ 
  * {
     background-color: #BB7171;
     color: white;
+    box-sizing: border-box;
+    font-family:  'Dosis', sans-serif;
     
 }
+
 

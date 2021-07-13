@@ -1,0 +1,43 @@
+
+@media (min-width:992px) {
+.burger {
+  display: none;
+}
+ 
+.brand-name{
+    padding-right: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+}
+.navbar {
+    font-size:1.4rem;
+padding: 3% 4% 5%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+.linkItem{
+    text-decoration: none !important;
+    color: white;
+    
+    
+    
+
+}
+.linkItem:hover{
+    color: #D7B19D;
+}
+
+
+
+
