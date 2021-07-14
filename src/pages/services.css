@@ -1,0 +1,11 @@
+.coaching-img{
+    max-height: 50vh;
+     margin-left: auto;
+    margin-right: auto;
+   display: block;
+   position: relative;
+}
+.title{
+    text-align: center;
+    padding: 2%;
+}

@@ -5,6 +5,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./menu.css";
 import { Navbar, Nav } from "react-bootstrap";
+import Logo from "../logo";
 
 
 
@@ -15,7 +16,7 @@ const Menu = () => {
 
     return <Nav className="ml-auto justify-content-center">
         <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className=" justify-content-center">
-            <div className="brand-name">Destino Coaching</div>
+            <Logo />
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
 
@@ -32,7 +33,7 @@ const Menu = () => {
                     <Link className="linkItem" to="/Support">Support for Schools</Link>
                 </Nav.Link>
                 <Nav.Link >
-                    <AnchorLink className="linkItem" to="/#Testimonials">Testimonials</AnchorLink>
+                    <AnchorLink className="linkItem" to="#Testimonials">Testimonials</AnchorLink>
                 </Nav.Link>
                 <Nav.Link >
                     <AnchorLink className="linkItem" to="/#Contacts">Contacts</AnchorLink>

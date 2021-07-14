@@ -10,6 +10,7 @@
     letter-spacing: 0.15rem;
     
     
+    
 }
 
 header{
@@ -24,3 +25,13 @@ header{
     font-size: 1.3rem;
     
 }
+.about{
+     padding: 5% 10%;
+    font-size: 1.3rem;
+   
+}
+.about h1{
+    text-align: center;
+}
+
+

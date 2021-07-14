@@ -3,8 +3,8 @@ import "./heroSection.css"
 import example from "../../images/example.jpg";
 const Hero = () => {
     return <div className="container.hero">
-        <div className="hero-img">
-            <img src={example} />
+        <div>
+            <img className="hero-img" src={example} />
         </div>
         <div className="quote"><blockquote>
             <p>“But I don’t want comfort. <p>I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin." </p></p></blockquote>

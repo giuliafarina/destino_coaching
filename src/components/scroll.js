@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
     toTop: {
         zIndex: 2,
         position: 'fixed',
-        bottom: '2vh',
+        bottom: '3vh',
         backgroundColor: 'black',
         color: 'black',
         "&:hover, &.Mui-focusVisible": {

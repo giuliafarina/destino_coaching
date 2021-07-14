@@ -8,6 +8,13 @@
     padding-right: 10rem;
     font-size: 1.7rem;
     font-weight: bold;
+      text-decoration: none !important;
+    color: white;
+    
+}
+
+.brand-name:hover{
+    color: #D7B19D;
 }
 
 }
