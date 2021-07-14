@@ -4,7 +4,6 @@ footer{
     padding-bottom: 2%;
 
 }
-
-.social{
-    margin-left: 30%;
+.social a:hover svg{
+    fill: #D7B19D;
 }

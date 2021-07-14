@@ -8,9 +8,9 @@ import MailIcon from '@material-ui/icons/Mail';
 
 const Contacts = ({ idProp }) => {
     return (
-        <footer>
-            <p id={idProp}>Email: <MailIcon /></p>
-            <p className="social" id={idProp}><TwitterIcon /><LinkedInIcon /><InstagramIcon /><FacebookIcon /></p>
+        <footer className="social">
+
+            <p id={idProp}><a href="mailto:paperino@gmail.com" ><MailIcon /></a><a><TwitterIcon /></a><a><LinkedInIcon /></a><InstagramIcon /><a><FacebookIcon /></a></p>
 
         </footer>
     )
