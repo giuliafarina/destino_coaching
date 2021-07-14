@@ -1,5 +1,8 @@
 
-
+.description{
+    padding:5% 10%;
+    font-size: 1.3rem;
+}
 img{
     max-height: 50vh;
     border-radius: 50%;
@@ -11,7 +14,7 @@ img{
 }
 .quote {
 text-align: center;
-padding: 4% 3% 6%;
+padding: 4% 10% 6%;
 
 
 }
