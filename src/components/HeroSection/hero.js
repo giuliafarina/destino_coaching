@@ -6,19 +6,15 @@ const Hero = () => {
         <div className="hero-img">
             <img src={example} />
         </div>
-        <div className="quote"><blockquote><p>The carbon in our apple pies extraordinary claims require extraordinary evidence permanence of the stars across the centuries Flatland cosmos.</p></blockquote>  <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption></div>
-        <p>
+        <div className="quote"><blockquote>
+            <p>“But I don’t want comfort. <p>I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin. </p></p></blockquote>
+            <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+        </div>
+        <div><p>
             Billions upon billions how far away venture rogue shores of the cosmic ocean white dwarf. Are creatures of the cosmos adipisci velit Euclid a mote of dust suspended in a sunbeam courage of our questions extraordinary claims require extraordinary evidence. Not a sunrise but a galaxyrise a mote of dust suspended in a sunbeam concept of the number one Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur another world Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-        </p>
-        <p>
-            Permanence of the stars a billion trillion kindling the energy hidden in matter with pretty stories for which there's little good evidence hearts of the stars billions upon billions? Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt brain is the seed of intelligence are creatures of the cosmos brain is the seed of intelligence astonishment made in the interiors of collapsing stars. The sky calls to us not a sunrise but a galaxyrise Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit Sea of Tranquility quis nostrum exercitationem ullam corporis suscipit laboriosam?
-        </p>
-        <p>
-            Permanence of the stars a billion trillion kindling the energy hidden in matter with pretty stories for which there's little good evidence hearts of the stars billions upon billions? Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt brain is the seed of intelligence are creatures of the cosmos brain is the seed of intelligence astonishment made in the interiors of collapsing stars. The sky calls to us not a sunrise but a galaxyrise Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit Sea of Tranquility quis nostrum exercitationem ullam corporis suscipit laboriosam?
-        </p>
-        <p>
-            Permanence of the stars a billion trillion kindling the energy hidden in matter with pretty stories for which there's little good evidence hearts of the stars billions upon billions? Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt brain is the seed of intelligence are creatures of the cosmos brain is the seed of intelligence astonishment made in the interiors of collapsing stars. The sky calls to us not a sunrise but a galaxyrise Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit Sea of Tranquility quis nostrum exercitationem ullam corporis suscipit laboriosam?
-        </p>
+        </p></div>
+
+
 
     </div>
 }
