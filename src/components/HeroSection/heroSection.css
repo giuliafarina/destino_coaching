@@ -1,4 +1,7 @@
-
+body{
+     
+    background-color: #BB7171;
+}
 .description{
     padding:5% 10%;
     font-size: 1.3rem;

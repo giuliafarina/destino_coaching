@@ -10,7 +10,7 @@ const Contacts = ({ idProp }) => {
     return (
         <footer>
             <p id={idProp}>Email: <MailIcon /></p>
-            <p id={idProp}>Social Media: <TwitterIcon /><LinkedInIcon /><InstagramIcon /><FacebookIcon /></p>
+            <p className="social" id={idProp}><TwitterIcon /><LinkedInIcon /><InstagramIcon /><FacebookIcon /></p>
 
         </footer>
     )
