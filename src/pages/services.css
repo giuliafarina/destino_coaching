@@ -2,7 +2,7 @@
     max-height: 50vh;
      margin-left: auto;
     margin-right: auto;
-   display: block;
+   display: flex;
    position: relative;
 }
 .title{

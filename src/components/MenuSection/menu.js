@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./menu.css";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Dropdown, NavItem, NavLink } from "react-bootstrap";
 import Logo from "../logo";
 
 
@@ -22,22 +22,25 @@ const Menu = () => {
 
             <Navbar.Collapse id="responsive-navbar navbarScroll" className={isOpen ? "show " : "" + "order-md-1"}>
 
-                <Nav.Link >
-                    <Link className="linkItem" to="/About"
-                    >About Me</Link>
-                </Nav.Link>
-                <Nav.Link >
-                    <Link className="linkItem" to="/Services">Coaching Services</Link>
-                </Nav.Link>
-                <Nav.Link >
-                    <Link className="linkItem" to="/Support">Support for Schools</Link>
-                </Nav.Link>
-                <Nav.Link >
-                    <AnchorLink className="linkItem" to="#Testimonials">Testimonials</AnchorLink>
-                </Nav.Link>
-                <Nav.Link >
-                    <AnchorLink className="linkItem" to="/#Contacts">Contacts</AnchorLink>
-                </Nav.Link>
+                <Nav.Item >
+                    <Nav.Link className="linkItem" href="/About"
+                    >About Me</Nav.Link></Nav.Item>
+
+                <Dropdown className="linkItem" as={NavItem}>
+                    <Dropdown.Toggle>Services</Dropdown.Toggle>
+                    <Dropdown.Menu>
+                        <Dropdown.Item as={NavLink} href="/Services" >Coaching Services</Dropdown.Item>
+                        <Dropdown.Item as={NavLink} href="/Support">Support for Schools</Dropdown.Item>
+                        <Dropdown.Item as={NavLink} href="/Testimonials">Testimonials</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
+
+
+
+                <Nav.Item >
+                    <AnchorLink className="linkItem" to="#Contacts">Contacts</AnchorLink>
+                </Nav.Item>
+
             </Navbar.Collapse>
 
         </Navbar>

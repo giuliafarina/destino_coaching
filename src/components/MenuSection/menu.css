@@ -3,7 +3,17 @@
 .burger {
   display: none;
 }
- 
+.btn-primary{
+     background: transparent !important;
+     border-color: transparent !important;
+     font-size: 1.4rem !important;
+     box-shadow: none !important;
+ }
+.dropdown-item:active {
+     background: #e9ecef ;
+     border-color: transparent ;
+     color: black;
+}
 .brand-name{
     padding-right: 10rem;
     font-size: 1.7rem;
@@ -28,6 +38,12 @@ padding: 3% 4% 5%;
     
 }
 
+html{
+    
+  scroll-behavior: smooth;
+
+}
+
 
 
 
@@ -36,6 +52,7 @@ padding: 3% 4% 5%;
 .linkItem{
     text-decoration: none !important;
     color: white;
+    padding:7px;
     
     
     

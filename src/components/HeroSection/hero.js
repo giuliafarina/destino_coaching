@@ -7,7 +7,7 @@ const Hero = () => {
             <img className="hero-img" src={example} />
         </div>
         <div className="quote"><blockquote>
-            <p>“But I don’t want comfort. <p>I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin." </p></p></blockquote>
+            <p>“But I don’t want comfort. </p><p>I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin."</p></blockquote>
             <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
         </div>
         <div className="description"><p>
