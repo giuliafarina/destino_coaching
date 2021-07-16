@@ -2,7 +2,7 @@
  
  
  
- * {
+ .layout{
   
     color: white;
     box-sizing: border-box;
@@ -13,7 +13,7 @@
     
 }
 
-header{
+/* header{
     font-size: 1.5rem;
     text-align: center;
     padding-top: 4%;
@@ -32,6 +32,6 @@ header{
 }
 .about h1{
     text-align: center;
-}
+} */
 
 

@@ -8,13 +8,15 @@ import Contacts from "../components/ContactSection/Contacts";
 
 
 const Layout = ({ children }) => {
-    return <>
-        <Menu />
-        <div>
-            {children}</div>
-        <Scroll />
+    return (
+        <div className="layout">
+            <Menu />
+            <div className="content">
+                {children}</div>
+            <Scroll />
 
-        <Contacts idProp="Contacts" /></>
+            <Contacts idProp="Contacts" />
+        </div>)
 
 }
 

@@ -14,38 +14,46 @@ const Menu = () => {
     const [isOpen, setOpen] = useState(false)
 
 
-    return <Nav className="ml-auto justify-content-center">
-        <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className=" justify-content-center">
-            <Logo />
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    // return <Nav className="ml-auto justify-content-center">
+    //     <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className=" justify-content-center">
+    //         <Logo />
+    //         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
 
-            <Navbar.Collapse id="responsive-navbar navbarScroll" className={isOpen ? "show " : "" + "order-md-1"}>
+    //         <Navbar.Collapse id="responsive-navbar navbarScroll" className={isOpen ? "show " : "" + "order-md-1"}>
 
-                <Nav.Item >
-                    <Nav.Link className="linkItem" href="/About"
-                    >About Me</Nav.Link></Nav.Item>
+    //             <Nav.Item >
+    //                 <Nav.Link className="linkItem" href="/About"
+    //                 >About Me</Nav.Link></Nav.Item>
 
-                <Dropdown className="linkItem" as={NavItem}>
-                    <Dropdown.Toggle>Services</Dropdown.Toggle>
-                    <Dropdown.Menu>
-                        <Dropdown.Item as={NavLink} href="/Services" >Coaching Services</Dropdown.Item>
-                        <Dropdown.Item as={NavLink} href="/Support">Support for Schools</Dropdown.Item>
-                        <Dropdown.Item as={NavLink} href="/Testimonials">Testimonials</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
+    //             <Dropdown className="linkItem" as={NavItem}>
+    //                 <Dropdown.Toggle>Services</Dropdown.Toggle>
+    //                 <Dropdown.Menu>
+    //                     <Dropdown.Item as={NavLink} href="/Services" >Coaching Services</Dropdown.Item>
+    //                     <Dropdown.Item as={NavLink} href="/Support">Support for Schools</Dropdown.Item>
+    //                     <Dropdown.Item as={NavLink} href="/Testimonials">Testimonials</Dropdown.Item>
+    //                 </Dropdown.Menu>
+    //             </Dropdown>
 
 
 
-                <Nav.Item >
-                    <AnchorLink className="linkItem" to="#Contacts">Contacts</AnchorLink>
-                </Nav.Item>
+    //             <Nav.Item >
+    //                 <AnchorLink className="linkItem" to="#Contacts">Contacts</AnchorLink>
+    //             </Nav.Item>
 
-            </Navbar.Collapse>
+    //         </Navbar.Collapse>
 
-        </Navbar>
+    //     </Navbar>
 
-    </Nav>
+    // </Nav>
+
+    return <nav>
+        <h1>Destino Coaching</h1>
+        <Link to="/">Home</Link>
+        <Link to="/Services">Services</Link>
+        <Link to="/About">About Me</Link>
+        <Link to="#Contacts">Contacts</Link>
+    </nav>
 
 
 }
