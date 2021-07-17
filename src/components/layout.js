@@ -1,9 +1,9 @@
 import * as React from "react";
-import "./layout.css"
+import "../styles/global.css";
 
 import Scroll from "../components/scroll"
-import Menu from "../components/MenuSection/menu";
-import Contacts from "../components/ContactSection/Contacts";
+import Menu from "./menu";
+import Contacts from "./Contacts";
 
 
 
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     return (
         <div className="layout">
             <Menu />
-            <div className="content">
+            <div>
                 {children}</div>
             <Scroll />
 

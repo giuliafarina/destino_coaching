@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout";
 
-import Hero from "../components/HeroSection/hero";
+import Hero from "../components/hero";
 
 
 

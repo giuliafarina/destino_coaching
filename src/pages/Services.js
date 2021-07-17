@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import coaching from "../images/coaching.jpg";
 import coaching2 from "../images/coaching2.jpg";
-import "./services.css";
+
 
 
 const Services = () => {

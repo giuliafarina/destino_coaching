@@ -1,23 +1,20 @@
-body{
-     
-    background-color: #BB7171;
-}
-.description{
-    padding:5% 10%;
+/* Hero section starts here */
+
+.description {
+    padding: 5% 10%;
     font-size: 1.3rem;
 }
-.hero-img{
+
+.heroImg img {
     max-height: 50vh;
     border-radius: 50%;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
+
 .quote {
-text-align: center;
-padding: 4% 10% 6%;
-
-
+    text-align: center;
+    padding: 4% 10% 6%;
 }
