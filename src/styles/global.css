@@ -23,6 +23,13 @@
      background-repeat: no-repeat;
  }
 
+ nav h1 {
+     display: flex;
+     flex: auto;
+     justify-content: space-around;
+     margin-right: 3rem;
+ }
+
  nav ul {
      list-style-type: none;
      display: flex;
@@ -33,6 +40,10 @@
  nav ul li {
      font-size: 1.4rem;
      flex: auto;
+ }
+
+ .links:hover {
+     border-bottom: solid 2px;
  }
 
  @media all and (max-width:600px) {
