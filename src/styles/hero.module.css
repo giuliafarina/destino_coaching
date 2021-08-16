@@ -1,21 +1,23 @@
 /* Hero section starts here */
 
-.description {
-    padding: 6% 10%;
+.container_content {
+    padding: 3% 5%;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.content {
     font-size: 1.3rem;
-    font-style: italic;
+    padding: 3%;
 }
 
-.heroImg img {
-    max-height: 50vh;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.content p {
+    text-align: justify;
 }
 
-.quote {
+.title {
+    padding: 30px;
     text-align: center;
-    padding: 4% 10% 6%;
+    font-weight: bolder;
 }

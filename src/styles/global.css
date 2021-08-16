@@ -15,10 +15,8 @@
  }
 
  .layout {
-     box-sizing: border-box;
      font-family: 'Montserrat', sans-serif;
      letter-spacing: 0.17rem;
-     max-width: 1200px;
      margin: 0 auto;
      padding: 0;
  }
@@ -29,8 +27,6 @@
 
  body {
      background-color: #BCD2D0;
-     background-image: -webkit-linear-gradient(30deg, #FBF7F0 50%, #BCD2D0 50%);
-     background-repeat: no-repeat;
  }
 
  nav h1 {
@@ -97,8 +93,47 @@
 
  /* Sections starts here */
 
- .section {
+ .button {
+     border-radius: 50px;
+     font-size: 1.3rem;
+     background-color: white;
+     margin: 3%;
+     cursor: pointer;
+     width: fit-content;
+     display: inline-flex;
+     border: 2px solid #3C5350;
+     padding: 16px 32px;
+ }
+
+ .button:hover {
+     background-color: #BCD2D0;
+ }
+
+ .container_section_white {
      height: 100vh;
+     padding: 2%;
+     margin: 2%;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     align-content: space-around;
+ }
+
+ @media screen and (max-width:768px) {
+     .container_section_white {
+         flex-direction: column;
+     }
+ }
+
+ .container_image {
+     display: flex;
+     align-items: flex-start;
+     flex-grow: 1;
+ }
+
+ .container_image img {
+     min-height: 500px;
  }
 
  /* Footer section starst here */

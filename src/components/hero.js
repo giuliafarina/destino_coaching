@@ -1,22 +1,19 @@
 import * as React from "react";
 import * as styles from '../styles/hero.module.css';
-
-import example from "../images/example.jpg";
+import { Link } from "gatsby";
+import hero from "../images/hero.jpg";
 
 const Hero = () => {
-    return <div className={styles.containerHero}>
-        <div className={styles.heroImg}>
-            <img src={example} />
+    return <div className="container_section_white">
+        <div className="container_image">
+            <img src={hero} />
         </div>
-        <div className={styles.quote}><blockquote>
-            <p>“But I don’t want comfort. </p><p>I want God, I want poetry, I want real danger, I want freedom, I want goodness. I want sin."</p></blockquote>
-            <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+        <div className={styles.container_content}>
+            <div className={styles.content}><h1 className={styles.title}>About me</h1>
+                <p>Hi! I'm <b>Nadia</b>. I grew up in London with my Mum and brother and moved to East Anglia to take up Headship in 2015.
+                    I now love life in the countryside and live here with my partner and two children.<br /></p><button type="button" className="button"><Link to="/About">Read More</Link></button>
+            </div>
         </div>
-        <div className={styles.description}><p>
-            Billions upon billions how far away venture rogue shores of the cosmic ocean white dwarf. Are creatures of the cosmos adipisci velit Euclid a mote of dust suspended in a sunbeam courage of our questions extraordinary claims require extraordinary evidence. Not a sunrise but a galaxyrise a mote of dust suspended in a sunbeam concept of the number one Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur another world Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-        </p></div>
-
-
 
     </div>
 }
