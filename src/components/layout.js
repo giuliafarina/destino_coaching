@@ -7,16 +7,19 @@ import Contacts from "./Contacts";
 
 
 
+
 const Layout = ({ children }) => {
     return (
         <div className="layout">
             <Menu />
             <div>
-                {children}</div>
+                {children}
+            </div>
             <Scroll />
 
             <Contacts idProp="Contacts" />
-        </div>)
+        </div>
+    )
 
 }
 

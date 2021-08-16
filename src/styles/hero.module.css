@@ -1,8 +1,9 @@
 /* Hero section starts here */
 
 .description {
-    padding: 5% 10%;
+    padding: 6% 10%;
     font-size: 1.3rem;
+    font-style: italic;
 }
 
 .heroImg img {

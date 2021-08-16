@@ -1,7 +1,5 @@
 import * as React from "react";
-import * as
-    styles
-    from '../styles/hero.module.css';
+import * as styles from '../styles/hero.module.css';
 
 import example from "../images/example.jpg";
 
