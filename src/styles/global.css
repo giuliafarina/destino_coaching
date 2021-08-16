@@ -64,7 +64,7 @@
          margin-left: 20%;
      }
      .line {
-         background-color: white;
+         background-color: #3C5350;
          width: 30px;
          height: 3px;
          margin: 5px;
@@ -123,6 +123,10 @@
  @media screen and (max-width:768px) {
      .container_section_white {
          flex-direction: column;
+         margin-bottom: 30%;
+     }
+     .button {
+         font-size: 1rem;
      }
  }
 

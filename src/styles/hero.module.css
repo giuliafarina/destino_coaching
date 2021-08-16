@@ -16,6 +16,12 @@
     text-align: justify;
 }
 
+@media screen and (max-width:768px) {
+    .content {
+        font-size: 1rem;
+    }
+}
+
 .title {
     padding: 30px;
     text-align: center;

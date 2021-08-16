@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout";
-import AboutPrev from "../components/AboutPrev";
+
 import ServicesPrev from "../components/servicesPrev";
 import Hero from "../components/hero";
 
@@ -8,7 +8,7 @@ import Hero from "../components/hero";
 
 const IndexPage = () => {
   return (
-    <Layout><Hero /><AboutPrev idProp="AboutPrev" />
+    <Layout><Hero idProp="Hero" />
       <ServicesPrev idProp="ServicesPrev" />
 
 

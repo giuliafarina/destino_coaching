@@ -18,9 +18,8 @@ const Menu = () => {
             <div className="line"></div>
         </div>
 
-        <ul> <div><img className="destino_logo" src={logo}></img></div>
-            <li><Link className="links" to="/">Home</Link></li>
-            <li><AnchorLink className="links" to="/#AboutPrev">About Me</AnchorLink></li>
+        <ul> <div><Link className="logo_link" to="/"><img className="destino_logo" src={logo}></img></Link></div>
+            <li><AnchorLink className="links" to="/#Hero">About Me</AnchorLink></li>
             <li><AnchorLink className="links" to="/#ServicesPrev">Services</AnchorLink></li>
 
             <li><AnchorLink className="links" to="/#Contacts">Contacts</AnchorLink></li>

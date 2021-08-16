@@ -3,8 +3,8 @@ import * as styles from '../styles/hero.module.css';
 import { Link } from "gatsby";
 import hero from "../images/hero.jpg";
 
-const Hero = () => {
-    return <div className="container_section_white">
+const Hero = ({ idProp }) => {
+    return <div className="container_section_white" id={idProp}>
         <div className="container_image">
             <img src={hero} />
         </div>
