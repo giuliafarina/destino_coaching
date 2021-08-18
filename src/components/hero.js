@@ -11,7 +11,8 @@ const Hero = ({ idProp }) => {
         <div className={styles.container_content}>
             <div className={styles.content}><h1 className={styles.title}>About me</h1>
                 <p>Hi! I'm <b>Nadia</b>. I grew up in London with my Mum and brother and moved to East Anglia to take up Headship in 2015.
-                    I now love life in the countryside and live here with my partner and two children.<br /></p><button type="button" className="button"><Link to="/About">Read More</Link></button>
+                    I now love life in the countryside and live here with my partner and two children.<br /></p>
+                <button type="button" className="button"><Link to="/About">Read More</Link></button>
             </div>
         </div>
 

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useState } from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { Link } from "gatsby";
 import logo from "../images/destino.svg";
@@ -10,20 +11,39 @@ import logo from "../images/destino.svg";
 const Menu = () => {
 
 
+    const [navLinkOpen, navLinkToggle] = useState(false);
+
+    const handleToggle = () => {
+        navLinkToggle(!navLinkOpen)
+    };
+
+    const renderClasses = () => {
+        let classes = "nav-links";
+        if (navLinkOpen) {
+            classes += " active"
+        }
+
+        return classes
+    };
+
 
     return <nav>
-        <div className="hamburger">
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
+
+        {/* <Link className="logo-link" to="/"> */}
+        <div className="logo">
+            <img className="destino_logo" src={logo}></img>
+            <h1 className="destino-header">Destino Coaching</h1>
         </div>
-
-        <ul> <div><Link className="logo_link" to="/"><img className="destino_logo" src={logo}></img></Link></div>
-            <li><AnchorLink className="links" to="/#Hero">About Me</AnchorLink></li>
-            <li><AnchorLink className="links" to="/#ServicesPrev">Services</AnchorLink></li>
-
-            <li><AnchorLink className="links" to="/#Contacts">Contacts</AnchorLink></li>
+        <ul className={renderClasses()}>
+            <li><AnchorLink className="nav-item" to="/#Hero">About </AnchorLink></li>
+            <li><AnchorLink className="nav-item" to="/#ServicesPrev">Services </AnchorLink></li>
+            <li><AnchorLink className="nav-item" to="/#Contacts">Contacts </AnchorLink></li>
         </ul>
+        <div onClick={handleToggle} className="hamburger">
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+        </div>
 
     </nav>
 
