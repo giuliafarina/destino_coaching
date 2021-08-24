@@ -1,0 +1,10 @@
+.card_body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.card_caption {
+    font-weight: bold;
+    font-style: italic;
+}

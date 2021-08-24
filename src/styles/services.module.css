@@ -1,0 +1,26 @@
+.coaching_img {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.description {
+    padding: 5vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.testimonials_container {
+    background-color: rgb(195, 150, 148);
+    color: white;
+}
+
+.title {
+    margin: auto;
+    padding: 4%;
+    text-align: center;
+}

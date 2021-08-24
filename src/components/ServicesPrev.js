@@ -1,29 +1,20 @@
+
 import * as React from "react";
+import * as styles from "../styles/servicesPrev.module.css"
+import Button from "./button.js";
+import { Link } from "gatsby";
 
 const ServicesPrev = ({ idProp }) => {
     return <>
-        <div className="section" id={idProp}>
-            <p>Vastness is bearable only through love across
-                the centuries cosmic fugue something incredible is waiting to
-                be known from which we spring permanence of the stars. Network of wormholes a
-                mote of dust suspended in a sunbeam finite but unbounded hearts of the stars a
-                very small stage in a vast cosmic arena how far away and billions upon billions
-                upon billions upon billions upon billions upon billions upon billions.
-            </p>
-            <p>Vastness is bearable only through love across
-                the centuries cosmic fugue something incredible is waiting to
-                be known from which we spring permanence of the stars. Network of wormholes a
-                mote of dust suspended in a sunbeam finite but unbounded hearts of the stars a
-                very small stage in a vast cosmic arena how far away and billions upon billions
-                upon billions upon billions upon billions upon billions upon billions.
-            </p>
-            <p>Vastness is bearable only through love across
-                the centuries cosmic fugue something incredible is waiting to
-                be known from which we spring permanence of the stars. Network of wormholes a
-                mote of dust suspended in a sunbeam finite but unbounded hearts of the stars a
-                very small stage in a vast cosmic arena how far away and billions upon billions
-                upon billions upon billions upon billions upon billions upon billions.
-            </p>
+        <div className="container_section_pink" id={idProp}>
+            <div className={styles.container_content_pink}>
+                <div className={styles.content_pink}><h1 className={styles.title_pink}>What I do</h1>
+                    <p> I am a certified life and leadership coach and I work with clients in a few different ways. In all my coaching work,
+                        I challenge clients to stretch their capacity by asking for far more than they have done before. <br /></p>
+                    <Link to="/Services"> <Button /></Link>
+                </div>
+            </div>
+
         </div>
     </>
 }

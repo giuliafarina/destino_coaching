@@ -1,0 +1,21 @@
+.container_content_pink {
+    padding: 3% 5%;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.content_pink {
+    font-size: 1.3rem;
+    padding: 6%;
+}
+
+.content_pink p {
+    text-align: center;
+}
+
+.title_pink {
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
