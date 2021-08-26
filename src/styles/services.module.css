@@ -16,11 +16,19 @@
 
 .testimonials_container {
     background-color: rgb(195, 150, 148);
-    color: white;
 }
 
 .title {
     margin: auto;
     padding: 4%;
     text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 4%;
 }
