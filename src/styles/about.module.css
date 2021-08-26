@@ -1,8 +1,33 @@
 .about_img {
-    max-height: 50vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
 }
 
-.about_container {
-    padding: 5% 5%
+.description {
+    padding: 5vw;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.greeting {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.title {
+    margin: auto;
+    padding: 4%;
+    text-align: center;
+}
+
+.container_pink {
+    background-color: #CA8A8B;
+}
+
+.container_green {
+    background-color: rgba(249, 243, 244);
 }
