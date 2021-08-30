@@ -49,6 +49,8 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
 }
 
 .nav-links {
@@ -74,9 +76,6 @@ nav {
     body {
         overflow-x: hidden;
     }
-    .destino_logo {
-        max-width: 30%;
-    }
     .line1 {
         background-color: #3C5350;
         width: 30px;
@@ -101,12 +100,11 @@ nav {
         margin: 0 auto;
         display: flex;
     }
-    .destino_logo {
-        width: 10%;
+    .logo {
+        margin-left: 30%;
     }
-    .destino-header {
-        margin-top: 10%;
-        margin-right: 20%;
+    .destino_logo {
+        max-width: 25%;
     }
     .hamburger {
         cursor: pointer;
