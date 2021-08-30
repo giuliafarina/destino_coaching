@@ -23,8 +23,14 @@
     text-align: justify;
 }
 
+.description_section_green h1 {
+    color: white;
+}
+
 .testimonials_container {
     background-color: rgb(195, 150, 148);
+    padding: 5vw;
+    margin: 0 auto;
 }
 
 .title {
