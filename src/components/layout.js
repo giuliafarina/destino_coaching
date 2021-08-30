@@ -3,7 +3,7 @@ import "../styles/global.css";
 
 import Scroll from "../components/scroll"
 import Menu from "./menu";
-import Contacts from "./Contacts";
+// import Contacts from "./Contacts";
 
 
 
@@ -16,8 +16,8 @@ const Layout = ({ children }) => {
                 {children}
             </div>
             <Scroll />
-
-            <Contacts idProp="Contacts" />
+            {/* 
+            <Contacts idProp="Contacts" /> */}
         </div>
     )
 
