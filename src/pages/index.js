@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout";
 
-import ServicesPrev from "../components/servicesPrev";
+import ServicesPrev from "../components/ServicesPrev";
 import Hero from "../components/hero";
 
 
