@@ -4,7 +4,7 @@ import coaching from "../images/coaching.jpg";
 import coaching2 from "../images/coaching2.jpg";
 import * as styles from "../styles/services.module.css";
 import Card from "../components/card";
-
+import { Link } from "gatsby";
 
 
 
@@ -25,16 +25,21 @@ const Services = () => {
 
         <div className="container_section_green">
 
-            <div className={styles.description_section_green}>   <h1 className={styles.title}>Coaching Services</h1><p><h3>Leadership coaching</h3>
-                <p>Leadership coaching identifies leadership strengths and areas of improvement for an individual or a team. It focuses on developing  emotional intelligence and defining a future vision for oneself as a leader.</p>
-                <h3>Executive coaching</h3>
-                Executive coaching is for leaders and improves  leadership abilities as well as the challenges associated with managing organisational change. This is ideal for Headteachers,, executive leaders and CEOs.
-                3. Instructional coaching
-                Instructional coaching focusses on Improving effectiveness and performance as an employee. I am very experienced in instructional coaching for teachers and school leaders and also offer a coaching programme for schools.
-                4. Life coaching
-                Life coaching supports the client to create a more fulfilled life;
-                Identifying values, purpose, goals and dreams; Recognizing barriers;
-                Taking action towards goal achievement.</p>
+            <div className={styles.description_section_green}>
+                <h1 className={styles.title}>Coaching Services</h1>
+
+                <h3 className={styles.title2}>Leadership coaching</h3>
+                <p>Leadership coaching identifies leadership strengths and areas of improvement for an individual or a team.
+                    It focuses on developing  emotional intelligence and defining a future vision for oneself as a leader.</p>
+                <h3 className={styles.title2}>Executive coaching</h3>
+                <p>Executive coaching is for leaders and improves  leadership abilities as well as the challenges associated with managing organisational change. This is ideal for Headteachers,, executive leaders and CEOs.</p>
+                <h3 className={styles.title2}>Instructional coaching </h3>
+                <p>Instructional coaching focusses on Improving effectiveness and performance as an employee.
+                    I am very experienced in instructional coaching for teachers and school leaders and also offer a Coaching Programme for Schools.</p>
+                <h3 className={styles.title2}>Life coaching </h3>
+                <p>Life coaching supports the client to create a more fulfilled life;
+                    Identifying values, purpose, goals and dreams; Recognizing barriers;
+                    Taking action towards goal achievement.</p>
 
             </div>
         </div>
@@ -77,7 +82,7 @@ const Services = () => {
         </div>
 
 
-    </Layout>
+    </Layout >
 
 
 }

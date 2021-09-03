@@ -36,7 +36,7 @@ const About = () => {
             <br />
             <p>I realised quite quickly that the only way to lead in such circumstances was to be <b>the best person I possibly could be</b>, so I embarked on a <b>counselling training course</b> and started my journey to becoming a  coach.</p>
             <br />
-            <h3><b>Coaching became a way of being in my school</b>.</h3>
+            <h3><b>Coaching became a way of being in my school.</b></h3>
         </div>
 
         <div className={`${styles.description} ${styles.container_green}`}>
