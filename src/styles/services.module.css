@@ -15,7 +15,6 @@
 }
 
 .description_section_green p {
-    color: white;
     padding: 5vw;
     margin: 0 auto;
     box-sizing: content-box;
@@ -23,12 +22,8 @@
     text-align: justify;
 }
 
-.description_section_green h1 {
-    color: white;
-}
-
 .testimonials_container {
-    background-color: rgb(195, 150, 148);
+    background-color: #DED4D5;
     padding: 5vw;
     margin: 0 auto;
 }
@@ -40,16 +35,12 @@
     margin-bottom: 6%;
 }
 
-.title2 {
+.title3 {
     margin-left: 5%;
     text-align: left;
     font-size: 1.4rem;
     border-bottom: solid 2px;
     width: fit-content;
-}
-
-h3 {
-    color: white;
 }
 
 .row {
@@ -64,5 +55,11 @@ h3 {
 @media screen and (max-width:768px) {
     .row {
         flex-direction: column;
+    }
+    .title {
+        font-size: 1.3rem;
+    }
+    .description {
+        font-size: 1.2rem;
     }
 }

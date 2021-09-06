@@ -11,7 +11,6 @@ import logo from "../images/destino.svg";
 
 const Menu = () => {
 
-
     const [navLinkOpen, navLinkToggle] = useState(false);
 
     const handleToggle = () => {
@@ -28,16 +27,16 @@ const Menu = () => {
     };
 
 
+
     return <>
         <nav>
-
             {/* <Link className="logo-link" to="/"> */}
             <div className="logo">
                 <img className="destino_logo" src={logo}></img>
                 <h1 className="destino-header">Destino Coaching</h1>
             </div>
             <ul className={renderClasses()}>
-                <li><AnchorLink className="nav-item" to="/#Hero"> <b>DESTINO</b></AnchorLink></li>
+                <li><AnchorLink className="nav-item" to="/#Hero"> <b>About</b></AnchorLink></li>
                 <li><AnchorLink className="nav-item" to="/#ServicesPrev">Services </AnchorLink></li>
                 <li><AnchorLink className="nav-item" to="#Contacts">Contacts </AnchorLink></li>
             </ul>

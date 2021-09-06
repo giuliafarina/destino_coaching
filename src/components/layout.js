@@ -12,9 +12,7 @@ const Layout = ({ children }) => {
     return (
         <div className="layout">
             <Menu />
-            <div>
-                {children}
-            </div>
+            {children}
             <Scroll />
 
             <Contacts idProp="Contacts" />

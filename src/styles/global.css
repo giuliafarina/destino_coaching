@@ -23,34 +23,33 @@ html, body {
 /* Navigation bar starts here */
 
 nav {
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 14vh;
-    margin-left: 6%;
-    margin-right: 7%;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-    background-color: rgb(195, 150, 148);
+}
+
+.layout nav+div {
+    padding-top: 14vh;
 }
 
 .destino-header {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .destino_logo {
-    max-width: 40%;
+    max-width: 20%;
     text-align: center;
     padding-left: 3%;
 }
 
 .logo {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 8vh;
-    margin-bottom: 4vh;
+    justify-content: space-evenly;
 }
 
 .nav-links {
@@ -59,7 +58,6 @@ nav {
     width: 40%;
     justify-content: space-around;
     margin-left: 20%;
-    /* background-color: rgb(249, 243, 244); */
 }
 
 .nav-item {
@@ -84,7 +82,7 @@ nav {
     }
     .line2 {
         background-color: #3C5350;
-        width: 25px;
+        width: 30px;
         height: 3px;
         margin: 5px;
         ;
@@ -96,15 +94,22 @@ nav {
         margin: 5px;
     }
     nav {
-        position: relative;
         margin: 0 auto;
         display: flex;
     }
+    .layout nav+div {
+        padding-top: 14vh;
+    }
     .logo {
-        margin-left: 30%;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
     .destino_logo {
         max-width: 25%;
+        margin-left: 10%;
+    }
+    .destino-header {
+        display: none;
     }
     .hamburger {
         cursor: pointer;
@@ -131,9 +136,7 @@ nav {
     }
     .active {
         transform: translateX(0%);
-    }
-    .container_section_white {
-        top: 100vh;
+        z-index: 1;
     }
 }
 
@@ -161,20 +164,17 @@ nav {
 
 .container_section_white {
     height: 100vh;
-    padding-top: 2%;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-content: space-around;
-    background-color: #F2F6F6;
-    width: 100%;
 }
 
 @media screen and (max-width:768px) {
     .container_section_white {
         flex-direction: column;
-        margin-bottom: 30%;
     }
     .button {
         font-size: 1rem;
@@ -189,18 +189,12 @@ nav {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-content: space-around;
-    background-color: rgb(195, 150, 148);
+    background-color: #DED4D5;
     width: 100%;
 }
 
 .container_section_green {
-    padding-top: 2%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-content: space-around;
-    background-color: #3C5350;
+    background-color: #78A5A0;
     width: 100%;
 }
 
