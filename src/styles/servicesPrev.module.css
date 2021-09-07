@@ -11,7 +11,12 @@
 }
 
 .content_pink p {
-    text-align: center;
+    text-align: justify;
+}
+
+.desk_image {
+    max-height: 60%;
+    padding: 5% 3%;
 }
 
 .title_pink {
