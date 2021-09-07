@@ -7,8 +7,9 @@ import desk from "../images/desk.jpeg";
 
 const ServicesPrev = ({ idProp }) => {
     return <>
-        <div className="container_section_pink" id={idProp}>
-            <img className={styles.desk_image} src={desk} />
+        <div className={styles.container_section_pink} id={idProp}>
+            <div className={styles.container_image}>
+                <img className={styles.desk_image} src={desk} /></div>
             <div className={styles.container_content_pink}>
                 <div className={styles.content_pink}><h1 className={styles.title_pink}>What I do</h1>
                     <p> I am a certified life and leadership coach and I work with clients in a few different ways. In all my coaching work,

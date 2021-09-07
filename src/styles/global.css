@@ -181,18 +181,6 @@ nav {
     }
 }
 
-.container_section_pink {
-    height: 100vh;
-    padding-top: 2%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-content: space-around;
-    background-color: #DED4D5;
-    width: 100%;
-}
-
 .container_section_green {
     background-color: #78A5A0;
     width: 100%;
