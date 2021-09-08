@@ -8,22 +8,12 @@
 }
 
 .content_pink {
-    padding: 5%;
+    padding: 4%;
 }
 
 .content_pink p {
     text-align: justify;
     font-size: 1.3rem;
-}
-
-.container_image {
-    padding: 5% 5%;
-    margin-top: 7%;
-    display: flex;
-}
-
-.nadiacup_image {
-    height: 80vh;
 }
 
 .title_pink {
@@ -39,15 +29,5 @@
     }
     .content_pink {
         padding: 6%;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .container_image {
-        height: 30vh;
-        margin: auto;
-    }
-    img {
-        height: 70vh;
     }
 }
