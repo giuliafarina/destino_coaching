@@ -1,5 +1,12 @@
 .card_body {
-    padding: 7% 15%;
+    padding: 5%;
+    margin: 7% 15%;
+    background-color: white;
+}
+
+.card_body img {
+    margin: auto;
+    padding-bottom: 30px;
 }
 
 .card_description {

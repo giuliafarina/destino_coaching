@@ -1,4 +1,11 @@
-.container_carousel {
+.container_testimonials {
     background-color: #78A5A0;
     padding-top: 7%;
+}
+
+.title_testimonials {
+    padding: 3% 7%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 36px;
 }

@@ -1,6 +1,7 @@
 import Card from "./card";
 import React, { Component } from "react";
 import Slider from "react-slick";
+import virginia from "../images/Virginia.png";
 
 
 export default class Responsive extends Component {
@@ -39,7 +40,7 @@ export default class Responsive extends Component {
                         There is certainly analysis on why such goals are set, but the secret weapon is making a plan, leaning onto action, making things real. 
                         I like to think of myself as a doer and you make me feel more and more like this, like it’s learning a new way to live, more direct, more brave, 
                         where what I want happens, because I dedicated time to create a good, compassionate, clever strategy, that is fuelled by my values and respects and strengthens how I am.
-You make me feel like the best version of myself." caption="Virginia - UX Designer " />
+You make me feel like the best version of myself." caption="Virginia - UX Designer " pic={virginia} />
                     </div>
                     <div>
                         <Card description="Working with Nadia is hugely rewarding -
