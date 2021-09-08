@@ -1,45 +1,44 @@
-.container_section_green {
-    height: 100vh;
-    padding: 5% 5%;
+.container_section_white {
+    padding: 7% 5%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-content: space-around;
-    background-color: #78A5A0;
+    background-color: #F2F6F6;
 }
 
-.content_green {
-    padding: 5% 5% 0;
+.content_white {
+    padding: 5%;
     margin-top: 7%;
-    margin-bottom: 0;
 }
 
-.content_green p {
+.content_white p {
     text-align: justify;
     font-size: 1.3rem;
 }
 
 .container_image {
-    padding: 5% 5% 0;
+    padding: 5% 5%;
+    margin-top: 7%;
     display: flex;
 }
 
-.desk_image {
-    height: 50vh;
+.nadiacup_image {
+    height: 80vh;
 }
 
-.title_green {
+.title_white {
     padding: 3% 0;
     text-align: left;
+    font-weight: 700;
     font-size: 36px;
-    font-weight: bolder;
 }
 
 @media screen and (max-width:768px) {
-    .container_section_green {
-        flex-direction: column;
+    .container_section_white {
+        flex-direction: column-reverse;
     }
-    .content_green {
+    .content_white {
         padding: 6%;
     }
 }

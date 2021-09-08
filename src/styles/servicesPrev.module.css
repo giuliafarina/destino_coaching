@@ -29,7 +29,8 @@
 .title_pink {
     padding: 3% 0;
     text-align: left;
-    font-weight: bolder;
+    font-weight: 700;
+    font-size: 36px;
 }
 
 @media screen and (max-width:768px) {
