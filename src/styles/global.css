@@ -24,12 +24,13 @@ html, body {
 
 nav {
     position: absolute;
-    width: 100vw;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 14vh;
+    padding: 1% 3%;
+    width: 90%;
 }
 
 .layout nav+div {
@@ -41,7 +42,7 @@ nav {
 }
 
 .destino_logo {
-    max-width: 20%;
+    max-width: 15%;
     text-align: center;
     padding-left: 3%;
 }
@@ -96,6 +97,7 @@ nav {
     nav {
         margin: 0 auto;
         display: flex;
+        height: 4vh;
     }
     .layout nav+div {
         padding-top: 14vh;
@@ -127,7 +129,7 @@ nav {
         right: 0px;
         position: absolute;
         width: 30%;
-        top: 14vh;
+        top: 18vh;
         font-size: 32px;
         font-weight: bold;
         transform: translateX(100%);
