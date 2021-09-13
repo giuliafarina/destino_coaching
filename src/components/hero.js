@@ -1,10 +1,20 @@
 import * as React from "react";
+
 import * as styles from '../styles/hero.module.css';
 import { Link } from "gatsby";
 
 import Button from "./button.js";
 
 const Hero = ({ idProp }) => {
+
+
+
+
+
+
+
+
+
     return <div className={styles.container_hero_image}>
         <div className={styles.container_content} id={idProp}>
             <div className={styles.content}><h1 className={styles.title}>Hi! I'm Nadia</h1>
