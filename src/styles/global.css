@@ -40,7 +40,9 @@ nav {
 }
 
 .destino-header {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-left: 3%;
 }
 
 .destino_logo {
@@ -52,7 +54,19 @@ nav {
 .logo {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.logo_link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkBlue;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin: 0 0.5rem;
 }
 
 .nav-links {

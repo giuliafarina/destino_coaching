@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { Link } from "gatsby";
 
 import logo from "../images/destino.svg";
 
@@ -30,10 +31,11 @@ const Menu = () => {
 
     return <>
         <nav>
-            {/* <Link className="logo-link" to="/"> */}
+
             <div className="logo">
-                <img className="destino_logo" src={logo}></img>
-                <h1 className="destino-header">Destino Coaching</h1>
+                <Link className="logo_link" to="/">
+                    <img className="destino_logo" src={logo}></img>
+                    <h1 className="destino-header">Destino Coaching</h1></Link>
             </div>
             <ul className={renderClasses()}>
                 <li><AnchorLink className="nav-item" to="/About"> <b>About</b></AnchorLink></li>
