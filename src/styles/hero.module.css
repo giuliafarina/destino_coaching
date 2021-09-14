@@ -30,12 +30,21 @@
 }
 
 @media screen and (max-width:768px) {
+    .paragraph {
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1.3rem;
+        margin: 0;
+    }
     .container_content {
         flex-wrap: nowrap;
     }
     .content p {
         font-size: 1.2rem;
-        text-align: left;
+        text-align: justify;
+        margin-right: 0;
     }
     .content {
         padding: 3%;

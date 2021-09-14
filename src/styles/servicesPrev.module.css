@@ -21,8 +21,9 @@
     display: flex;
 }
 
-.desk_image {
+.desk1_image {
     height: 50vh;
+    border-radius: 5%;
 }
 
 .title_pink {
