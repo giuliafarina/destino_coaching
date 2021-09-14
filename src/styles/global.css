@@ -205,9 +205,52 @@ footer {
     text-align: center;
     font-size: 1.2rem;
     padding-bottom: 2%;
-    margin-top: 60vh;
+    margin-top: 5vh;
 }
 
-.social a:hover svg {
-    fill: #D7B19D;
+footer p {
+    line-height: 1.2rem;
+}
+
+.social a svg:hover {
+    cursor: pointer;
+    fill: rosybrown;
+}
+
+svg {
+    padding: 0.7%
+}
+
+.credits {
+    font-size: 0.9rem;
+}
+
+.instaIcon svg {
+    fill: #C13584;
+    width: 3rem;
+    height: 3rem;
+}
+
+.twitterIcon svg {
+    fill: #1DA1F2;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 30%;
+}
+
+.linkedinIcon svg {
+    fill: #0077B5;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 30%;
+}
+
+.facebookIcon svg {
+    fill: #3B5998;
+    width: 3rem;
+    height: 3rem;
+}
+
+.social {
+    margin-bottom: 4vh;
 }
