@@ -2,6 +2,7 @@ import Card from "./card";
 import React, { Component } from "react";
 import Slider from "react-slick";
 import virginia from "../images/Virginia.png";
+import liz from "../images/Liz.png"
 
 
 export default class Responsive extends Component {
@@ -27,6 +28,17 @@ export default class Responsive extends Component {
             <div>
 
                 <Slider {...settings}>
+
+                    <div>
+                        <Card description="Nadia is a leader and coach of the highest integrity and skill. Her dynamism drive and ambition are defining features of her leadership and her compassion for others makes her skilful and affective coach. Choose energetic, positive and humble. I love working with Nadia highly recommend her work.
+" caption="Liz Robinson, Co-Director, Big Education " pic={liz} />
+
+                    </div>
+                    <div>
+                        <Card description="Nadia’s skills as a coach empower you personally and professionally. Under her leadership and coaching I gained immense confidence to undertake what would have previously been difficult challenges. 
+                        Prepare to answer challenging and enlightening questions you didn’t realise were that important! " caption={"Ben Graham-Sharpe - Phase Leader"} pic={liz} />
+
+                    </div>
                     <div>
                         <Card description="Working with Nadia is hugely rewarding -
                     she listens attentively and asks the questions that prompt you to think and reflect on ways to move forward.
@@ -49,11 +61,6 @@ You make me feel like the best version of myself." caption="Virginia - UX Design
                     I enjoy and look forward to. 
                     She has helped me over the past few years to find myself and be the best 
                     version of me that I can be." caption="Luigi - Buisness Operations Manager " />
-                    </div>
-                    <div>
-                        <Card description="Nadia is a leader and coach of the highest integrity and skill. Her dynamism drive and ambition are defining features of her leadership and her compassion for others makes her skilful and affective coach. Choose energetic, positive and humble. I love working with Nadia highly recommend her work.
-" caption="Liz Robinson, Co-Director, Big Education " />
-
                     </div>
                     <div>
                         <h3>6</h3>

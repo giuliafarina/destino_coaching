@@ -7,6 +7,7 @@
 .card_body img {
     margin: auto;
     padding-bottom: 30px;
+    width: 12vw;
 }
 
 .card_description {
@@ -24,5 +25,9 @@
     .card_description {
         font-size: 1.1rem;
         text-align: justify;
+    }
+    .card_body img {
+        height: 10vh;
+        width: 10vh;
     }
 }

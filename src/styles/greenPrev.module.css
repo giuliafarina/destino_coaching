@@ -25,6 +25,7 @@
 
 .desk_image {
     height: 60vh;
+    border-radius: 0;
 }
 
 .title_green {
