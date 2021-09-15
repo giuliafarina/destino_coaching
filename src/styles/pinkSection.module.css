@@ -1,5 +1,5 @@
 .container_section_pink {
-    padding: 7% 5%;
+    padding: 7% 5% 1% 5%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -7,8 +7,31 @@
     background-color: #DED4D5;
 }
 
+.container_image {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.paperbook_image {
+    width: 75vh;
+    margin-top: 20%;
+}
+
+.logo_image {
+    width: 15vw;
+    margin: 1% auto;
+    padding: 3%;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.3rem;
+}
+
 .content_pink {
-    padding: 4%;
+    padding: 4% 5% 3% 4%;
 }
 
 .content_pink p {
@@ -21,6 +44,7 @@
     text-align: left;
     font-weight: 700;
     font-size: 36px;
+    margin-bottom: 7%;
 }
 
 @media screen and (max-width:768px) {

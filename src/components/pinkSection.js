@@ -9,7 +9,9 @@ const pinkSection = () => {
         <div className={styles.container_section_pink}>
             <div className={styles.container_image}>
                 <img className={styles.logo_image} src={logo} />
+                <figcaption className={styles.caption}>The Destino Coaching Logo</figcaption>
                 <img className={styles.paperbook_image} src={paperbook} />
+
             </div>
 
             <div className={styles.container_content_pink}>
