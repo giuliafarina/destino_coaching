@@ -1,7 +1,7 @@
 .container_section_white {
-    padding: 7% 5%;
+    padding: 0 5% 5%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     align-content: space-around;
     background-color: #F2F6F6;
@@ -18,14 +18,34 @@
 }
 
 .container_image {
-    padding: 4% 0 0 4%;
-    margin-top: 3%;
+    padding: 4% 0 0 0;
     display: flex;
 }
 
-.crochet1_image {
-    height: 60vh;
+.container_image2 {
+    padding: 4% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
     border-radius: 5%;
+    padding: 2% 2% 2% 0;
+}
+
+.nadia_daughter_image {
+    height: 73vh;
+}
+
+.crochet2_image {
+    width: 45vh;
+    height: 35vh;
+    margin-bottom: 2%;
+}
+
+.beach1_image {
+    width: 45vh;
+    height: 35vh;
 }
 
 .title_white {

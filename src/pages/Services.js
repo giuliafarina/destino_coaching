@@ -46,42 +46,6 @@ const Services = () => {
                 </div>
             </div>
 
-
-
-            <div className={styles.testimonials_container}><h1 className={styles.title}>Some people say</h1>
-
-                <div className={styles.row}>
-                    <div className={styles.column}><Card description="Working with Nadia is hugely rewarding -
-                    she listens attentively and asks the questions that prompt you to think and reflect on ways to move forward.
-                    Her warm and vibrant personality contributes to coaching sessions that 
-                    I enjoy and look forward to. 
-                    She has helped me over the past few years to find myself and be the best 
-                    version of me that I can be." caption="Stephany Hunter  - leadership coaching "
-                    /></div><div className={styles.column}> <Card description="Nadia is a leader and coach of the highest integrity and skill. 
-                Her dynamism drive and ambition are defining features of her leadership and her compassion for others makes her skilful and affective coach. 
-                Choose energetic, positive and humble. I love working with Nadia highly recommend her work."
-                        caption="Liz Robinson, Co-Director, Big Education"
-                    /></div>
-                </div>
-
-
-                <div className={styles.row}>
-                    <div className={styles.column}><Card description="Coaching with Nadia has made a huge impact on my professional growth. I love having my thinking challenged! I have become comfortable with feeling uncomfortable in a safe and confidential environment. Thank you Nadia." caption="Louise Scott HT – executive coaching"
-                    /></div><div className={styles.column}> <Card description="There's a few ingredients in Nadia's secret sauce. She can look through my words and expressions and hit all the spots I did not think mattered. 
-                Her honesty and courage to say it as it is are hugely inspiring. 
-                The best ingredients are in her ways of working, which are focussed and objective-driven, 
-                looking at the real, practical ways of having an impact on well-trodden paths and habits. 
-                Our work is giving shape to the person I want to be and is guiding me through to being who I want to be. 
-                I wish I had we had met earlier!" caption="Luigi , Business Operations Manager"
-                    /></div>
-                </div>
-
-
-
-
-
-
-            </div>
         </div>
 
     </Layout>

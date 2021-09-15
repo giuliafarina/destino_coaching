@@ -17,7 +17,7 @@ const Contacts = ({ idProp }) => {
                 <a className="linkedinIcon"><IoLogoLinkedin /></a>
                 <a className="twitterIcon"><AiFillTwitterCircle /></a>
                 <a className="facebookIcon"><IoLogoFacebook /></a></p>
-            <p className="credits">© Destino Coaching 2021<br /> Web Design: Virginia Broadhead & Giulia Farina <br />Photo credits: Emma Cullen</p>
+            <div className="container_credits"><p className="credits"><b>© Destino Coaching 2021</b><br /> Design: Virginia Broadhead <br />Coding: <a href="https://www.giuliafarina.com">Giulia Farina</a> <br />Photo credits: Emma Cullen</p></div>
         </footer>
     )
 }

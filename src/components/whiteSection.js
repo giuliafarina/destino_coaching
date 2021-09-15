@@ -1,19 +1,19 @@
 import * as React from "react";
 import * as styles from "../styles/whiteSection.module.css"
 
-import nadiacup from "../images/nadiacup.jpeg";
+import crochet1 from "../images/crochet1.jpg";
 
 const WhiteSection = () => {
     return <>
         <div className={styles.container_section_white}>
             <div className={styles.container_image}>
-                <img className={styles.nadiacup_image} src={nadiacup} />
+                <img className={styles.crochet1_image} src={crochet1} />
             </div>
             <div className={styles.container_content_white}>
                 <div className={styles.content_white}><h1 className={styles.title_white}>Hi, I'm Nadia</h1>
 
-                    <p>I grew up in London with my Mum and brother and moved to East Anglia to take up Headship in 2015.</p><br />
-                    <p> I now love life in the countryside and live here with my partner and two children.</p><br />
+                    <p>I grew up in London with my Mum and brother and moved to East Anglia to take up Headship in 2015.<br />
+                        I now love life in the countryside and live here with my partner and two children.</p><br />
                     <p>I worked in London schools for 15 years before moving East. The school I moved here to lead, was recognised as being in the bottom 2% of schools for academic performance when I arrived,
                         and the challenged that faced me, was greater than I ever imagined.</p>
                     <br />

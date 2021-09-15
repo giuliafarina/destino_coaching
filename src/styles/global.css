@@ -204,7 +204,7 @@ nav {
 footer {
     text-align: center;
     font-size: 1.2rem;
-    padding-bottom: 2%;
+    margin-bottom: 3vh;
     margin-top: 5vh;
 }
 
@@ -221,8 +221,23 @@ svg {
     padding: 0.7%
 }
 
+.container_credits {
+    display: flex;
+}
+
 .credits {
     font-size: 0.9rem;
+    text-align: justify;
+    margin: auto;
+}
+
+.credits a {
+    text-decoration: none;
+    line-height: 1.3rem;
+}
+
+.credits a:hover {
+    color: rosybrown;
 }
 
 .instaIcon svg {
@@ -253,4 +268,10 @@ svg {
 
 .social {
     margin-bottom: 4vh;
+}
+
+@media screen and (max-width:768px) {
+    .social svg {
+        width: 2.2rem;
+    }
 }
