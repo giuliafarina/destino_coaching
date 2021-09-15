@@ -17,7 +17,7 @@ const Contacts = ({ idProp }) => {
                 <a className="linkedinIcon"><IoLogoLinkedin /></a>
                 <a className="twitterIcon"><AiFillTwitterCircle /></a>
                 <a className="facebookIcon"><IoLogoFacebook /></a></p>
-            <div className="container_credits"><p className="credits"><b>© Destino Coaching 2021</b><br /> Design: Virginia Broadhead <br />Coding: <a href="https://www.giuliafarina.com">Giulia Farina</a> <br />Photo credits: Emma Cullen</p></div>
+            <div className="container_credits"><p className="credits"><b>© Destino Coaching 2021</b><br />Design: <a href="https://www.linkedin.com/in/virginia-b-7188b15a">Virginia Broadhead</a>  <br />Coding: <a href="https://www.giuliafarina.com">Giulia Farina</a> <br />Photo credits: <a href="https://www.emmacullenphotography.com/">Emma Cullen</a></p></div>
         </footer>
     )
 }
