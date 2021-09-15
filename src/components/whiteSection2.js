@@ -18,9 +18,11 @@ const WhiteSection2 = () => {
             <div className={styles.container_content_white}>
                 <div className={styles.content_white}>
 
-                    <p>Since leaving headship, I have been coaching school leaders and providing support to  schools that want to develop coaching approaches. I also  work with Achievement For All, delivering their Achieving Schools and Achieving Wellbeing programmes, as well as Ambition School Leadership and Inspiration Trust, facilitating on their NPQs. I wholeheartedly believe coaching approaches will retain teachers, strengthen school leadership and serve our children and young people.
-                        When I am not working, I enjoy walking, cycling (gently) and I have always found comfort in fabric and crafts (currently it’s crochet).
-                        .</p>
+                    <p>Since leaving headship, I have been coaching school leaders and providing support to  schools that want to develop coaching approaches.</p><br />
+                    <p>I also  work with Achievement For All, delivering their Achieving Schools and Achieving Wellbeing programmes, as well as Ambition School Leadership and Inspiration Trust, facilitating on their NPQs.</p><br />
+                    <p>I wholeheartedly believe coaching approaches will retain teachers, strengthen school leadership and serve our children and young people.</p><br />
+                    <p>When I am not working, I enjoy walking, cycling (gently) and I have always found comfort in fabric and crafts (currently it’s crochet).
+                    </p>
                 </div>
             </div>
 

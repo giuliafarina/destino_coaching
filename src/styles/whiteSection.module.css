@@ -1,5 +1,5 @@
 .container_section_white {
-    padding: 7% 5%;
+    padding: 7% 5% 1% 5%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -19,7 +19,7 @@
 
 .container_image {
     padding: 4% 0 0 4%;
-    margin-top: 3%;
+    margin-top: 8%;
     display: flex;
 }
 
@@ -33,6 +33,7 @@
     text-align: left;
     font-weight: 700;
     font-size: 36px;
+    margin-bottom: 3%;
 }
 
 @media screen and (max-width:768px) {
