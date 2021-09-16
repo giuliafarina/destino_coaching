@@ -1,0 +1,47 @@
+::placeholder {
+    font-family: jost;
+    color: #78A5A0;
+    font-size: 18px;
+    padding: 1.5%;
+}
+
+.form_container {
+    padding: 5%;
+    margin: 5% 7%;
+}
+
+input {
+    background: #F2F6F6;
+    border-radius: 10px;
+    width: 440px;
+    height: 50px;
+    border: 2px solid #243130;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+textarea {
+    background: #F2F6F6;
+    resize: none;
+    border-radius: 10px;
+    width: 442px;
+    height: 223px;
+    left: 116px;
+    top: 3354px;
+    border: 2px solid #243130;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+input.submit_button {
+    background: #F2F6F6;
+    color: #243130;
+    border: 2px solid #243130;
+    border-radius: 50px;
+    width: 180px;
+    height: 35px;
+    left: 116px;
+    top: 3604px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
