@@ -8,8 +8,8 @@
 }
 
 .content_white {
-    padding: 1%;
-    margin-top: 7%;
+    padding-right: 4%;
+    margin-top: 15%;
 }
 
 .content_white p {
@@ -38,7 +38,7 @@
 
 @media screen and (max-width:768px) {
     .container_section_white {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .content_white {
         padding: 6%;
@@ -47,10 +47,10 @@
 
 @media screen and (max-width:768px) {
     .container_image {
-        height: 30vh;
+        height: 50vh;
         margin: auto;
     }
     .whiteboard_image {
-        height: 70vh;
+        object-fit: contain;
     }
 }
