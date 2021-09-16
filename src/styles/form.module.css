@@ -8,6 +8,7 @@
 .form_container {
     padding: 5%;
     margin: 5% 7%;
+    text-align: justify;
 }
 
 input {
@@ -24,7 +25,7 @@ textarea {
     background: #F2F6F6;
     resize: none;
     border-radius: 10px;
-    width: 442px;
+    width: 27rem;
     height: 223px;
     left: 116px;
     top: 3354px;
@@ -44,4 +45,25 @@ input.submit_button {
     top: 3604px;
     box-sizing: border-box;
     font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+    input {
+        width: 200px;
+        height: 30px;
+        ;
+    }
+    textarea {
+        width: 300px;
+        height: 100px;
+    }
+    ::placeholder {
+        font-size: 0.9rem;
+    }
+    label {
+        font-size: 1rem;
+    }
+    input.submit_button {
+        font-size: 1rem;
+    }
 }
