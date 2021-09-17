@@ -9,7 +9,8 @@ import GreenPrev from "../components/greenPrev";
 
 const IndexPage = () => {
   return (
-    <Layout><Hero idProp="Hero" />
+    <Layout>
+      <Hero idProp="Hero" />
       <ServicesPrev idProp="ServicesPrev" />
       <GreenPrev idProp="GreenPrev" />
 

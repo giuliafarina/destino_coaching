@@ -2,18 +2,15 @@ import * as React from "react";
 import { AiFillInstagram, AiFillTwitterSquare } from "react-icons/ai";
 import { IoLogoLinkedin } from "react-icons/io5"
 import { IoLogoFacebook } from "react-icons/io";
-// import TwitterIcon from '@material-ui/icons/Twitter';
-// import LinkedInIcon from '@material-ui/icons/LinkedIn';
-// import InstagramIcon from '@material-ui/icons/Instagram';
-// import { Facebook } from "@material-ui/icons";
 
 
 
-const Contacts = ({ idProp }) => {
+
+const Footer = () => {
     return (
 
         <footer >
-            <p className="social" id={idProp}>
+            <p className="social">
                 <a className="instaIcon">  <AiFillInstagram /></a>
                 <a className="linkedinIcon"><IoLogoLinkedin /></a>
                 <a className="twitterIcon"><AiFillTwitterSquare /></a>
@@ -22,4 +19,4 @@ const Contacts = ({ idProp }) => {
         </footer>
     )
 }
-export default Contacts;
+export default Footer;

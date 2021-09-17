@@ -24,14 +24,9 @@
     flex-direction: column;
 }
 
-.desk5_image {
+.crochet3_image {
     height: 30vw;
     padding-right: 0;
-}
-
-.span_pink {
-    background-color: #DED4D5;
-    padding: 5%;
 }
 
 .title_white {
@@ -57,7 +52,7 @@
         height: 50vh;
         margin: auto;
     }
-    .desk5_image {
+    .crochet3_image {
         object-fit: contain;
     }
 }

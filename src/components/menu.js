@@ -42,7 +42,7 @@ const Menu = () => {
                 <li><AnchorLink className="nav-item" to="/#ServicesPrev">Coaching</AnchorLink></li>
 
                 <li><AnchorLink className="nav-item" to="/ServicesforSchools">Services for Schools</AnchorLink></li>
-                <li><AnchorLink className="nav-item" to="#Contacts">Contacts </AnchorLink></li>
+                <li><AnchorLink className="nav-item" to="/Contacts">Contacts </AnchorLink></li>
             </ul>
             <div onClick={handleToggle} className="hamburger" role="button">
                 <div className="line1"></div>

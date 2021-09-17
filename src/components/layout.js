@@ -3,7 +3,7 @@ import "../styles/global.css";
 
 import Scroll from "../components/scroll"
 import Menu from "./menu";
-import Contacts from "./Contacts";
+import Footer from "./footer";
 
 
 
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
             {children}
             <Scroll />
 
-            <Contacts idProp="Contacts" />
+            <Footer />
         </div>
     )
 
