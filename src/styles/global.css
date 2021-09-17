@@ -22,8 +22,6 @@ html, body {
     background-color: #F2F6F6;
 }
 
-/* Navigation bar starts here */
-
 nav {
     position: absolute;
     z-index: 1;

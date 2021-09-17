@@ -54,6 +54,10 @@
     .content_pink {
         padding: 6%;
     }
+    .content_pink p {
+        text-align: justify;
+        font-size: 1rem;
+    }
     .logo_image {
         width: 30vw;
     }

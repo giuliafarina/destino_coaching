@@ -43,9 +43,6 @@
     .content_white {
         padding: 6%;
     }
-}
-
-@media screen and (max-width:768px) {
     .container_image {
         height: 30vh;
         margin: auto;
@@ -53,4 +50,10 @@
     img {
         height: 70vh;
     }
+    .content_white p {
+        font-size: 1rem;
+        text-align: justify;
+    }
 }
+
+@media screen and (max-width:768px) {}

@@ -55,4 +55,11 @@
     .crochet3_image {
         object-fit: contain;
     }
+    .content_white {
+        padding: 6%;
+    }
+    .content_white p {
+        font-size: 1rem;
+        text-align: justify;
+    }
 }

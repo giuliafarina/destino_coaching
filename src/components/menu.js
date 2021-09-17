@@ -39,7 +39,7 @@ const Menu = () => {
             </div>
             <ul className={renderClasses()}>
                 <li><AnchorLink className="nav-item" to="/About"> <b>About</b></AnchorLink></li>
-                <li><AnchorLink className="nav-item" to="/#ServicesPrev">Coaching</AnchorLink></li>
+                <li><AnchorLink className="nav-item" to="/Services">Coaching</AnchorLink></li>
 
                 <li><AnchorLink className="nav-item" to="/ServicesforSchools">Services for Schools</AnchorLink></li>
                 <li><AnchorLink className="nav-item" to="/Contacts">Contacts </AnchorLink></li>
