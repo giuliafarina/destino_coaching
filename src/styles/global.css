@@ -231,6 +231,10 @@ svg {
     margin: auto;
 }
 
+.copyright {
+    border-bottom: solid 2px;
+}
+
 .credits a {
     text-decoration: none;
     line-height: 1.3rem;
