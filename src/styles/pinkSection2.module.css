@@ -55,7 +55,8 @@
         text-align: justify;
         font-size: 1rem;
     }
-    .desk9_image {
-        object-fit: contain;
+    .desk8_image {
+        max-width: 100%;
+        height: auto;
     }
 }

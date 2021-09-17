@@ -52,7 +52,8 @@
         margin: auto;
     }
     .desk5_image {
-        object-fit: contain;
+        max-width: 100%;
+        height: auto;
     }
     .content_white {
         padding: 6%;
