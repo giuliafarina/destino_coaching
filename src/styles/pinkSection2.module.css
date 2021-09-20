@@ -55,4 +55,7 @@
         max-width: 100%;
         height: auto;
     }
+    .title_pink {
+        text-align: center;
+    }
 }

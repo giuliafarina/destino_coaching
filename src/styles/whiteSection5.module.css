@@ -51,6 +51,7 @@
     .container_image {
         height: 50vh;
         margin: auto;
+        padding: 4% 0;
     }
     .crochet3_image {
         max-width: 100%;
@@ -62,5 +63,8 @@
     .content_white p {
         font-size: 1rem;
         text-align: justify;
+    }
+    .title_white {
+        text-align: center;
     }
 }
