@@ -18,7 +18,7 @@
 }
 
 .container_image {
-    padding: 4% 0 0 4%;
+    padding: 4% 0;
     margin-top: 8%;
     display: flex;
 }
@@ -47,7 +47,7 @@
 
 @media screen and (max-width:768px) {
     .container_image {
-        height: 50vh;
+        height: 100vh;
         margin: auto;
     }
     .content_white p {
@@ -55,6 +55,7 @@
         text-align: justify;
     }
     .whiteboard_image {
-        object-fit: contain;
+        width: 100%;
+        height: auto;
     }
 }

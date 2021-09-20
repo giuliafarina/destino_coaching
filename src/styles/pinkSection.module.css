@@ -59,6 +59,13 @@
         font-size: 1rem;
     }
     .logo_image {
-        width: 30vw;
+        width: 50%;
+    }
+    .paperbook_image {
+        width: 100%;
+        height: auto;
+    }
+    .container_image {
+        margin: 0;
     }
 }

@@ -18,18 +18,13 @@
     margin-top: 3%;
 }
 
+.container_image {
+    width: 50vw;
+    padding-right: 0;
+}
+
 img {
     border-radius: 0;
-}
-
-.desk3_image {
-    width: 50vw;
-    padding-right: 0;
-}
-
-.desk4_image {
-    width: 50vw;
-    padding-right: 0;
 }
 
 .content_green {
@@ -68,9 +63,14 @@ img {
     .container_image {
         display: flex;
         flex-direction: column;
-        padding: 5%;
+        width: 100%;
+        padding: 0;
     }
-    img {
-        object-fit: contain;
+    .container_image img {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper_section_green {
+        padding: 5%;
     }
 }

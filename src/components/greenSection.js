@@ -12,9 +12,9 @@ const greenSection = () => {
                 <div className={styles.container_image}>
 
 
-                    <img className={styles.desk3_image} src={desk3} />
+                    <img src={desk3} />
 
-                    <img className={styles.desk4_image} src={desk4} />
+                    <img src={desk4} />
 
                 </div>
 

@@ -30,7 +30,7 @@
 
 img {
     border-radius: 5%;
-    padding: 2% 2% 2% 0;
+    padding: 2% 0;
 }
 
 .nadia_daughter_image {
@@ -66,14 +66,15 @@ img {
 
 @media screen and (max-width:768px) {
     .container_image {
-        height: 30vh;
+        height: 100vh;
         margin: auto;
     }
     .content_white p {
         font-size: 1rem;
         text-align: justify;
     }
-    img {
-        height: 70vh;
+    .crochet2_image, .beach1_image {
+        width: 100%;
+        height: auto;
     }
 }

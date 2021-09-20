@@ -44,15 +44,16 @@
         padding: 6%;
     }
     .container_image {
-        height: 30vh;
+        height: 100vh;
         margin: auto;
-    }
-    img {
-        height: 70vh;
     }
     .content_white p {
         font-size: 1rem;
         text-align: justify;
+    }
+    .crochet1_image {
+        width: 100%;
+        height: auto;
     }
 }
 

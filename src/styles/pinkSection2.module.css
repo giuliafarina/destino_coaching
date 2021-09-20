@@ -48,7 +48,7 @@
 
 @media screen and (max-width:768px) {
     .container_image {
-        height: 50vh;
+        height: 100vh;
         margin: auto;
     }
     .content_pink p {
