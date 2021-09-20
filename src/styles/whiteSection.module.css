@@ -8,7 +8,7 @@
 }
 
 .content_white {
-    padding: 1%;
+    padding: 4%;
     margin-top: 15%;
 }
 
@@ -44,9 +44,8 @@
         padding: 6%;
     }
     .container_image {
-        height: 100vh;
         margin: auto;
-        padding: 4% 0;
+        padding: 0;
     }
     .content_white p {
         font-size: 1rem;

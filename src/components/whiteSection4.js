@@ -15,9 +15,9 @@ const WhiteSection4 = () => {
                     <p><em><a href={achieving} download><b>Download</b></a> a case study of how I supported Westley Middle School through Achieving Great</em></p></span>
             </div>
             <div className={styles.container_content_white}>
-                <div className={styles.content_white}><h1 className={styles.title_white}>Destino Flagship Programmes for Schools</h1>
+                <div className={styles.content_white}><h1 className={styles.title_white_big}>Destino Flagship Programmes for Schools</h1>
 
-                    <em><b>Achieving Great</b> Programme</em>
+                    <h1 className={styles.title_white}><b>Achieving Great Programme</b></h1>
                     <p>Designed to support new or promising teachers, who need that extra bit of support to secure great teaching, every day.
                         Nadia works alongside the teacher as an instructional coach.</p><br />
                     <p> The package includes:
