@@ -33,21 +33,29 @@
     font-size: 36px;
 }
 
+@media screen and (max-width:768px) {}
+
 @media screen and (max-width:768px) {
+    .container_image {
+        width: 100%;
+        padding: 0;
+    }
+    .container_image img {
+        width: 100%;
+        height: auto;
+    }
     .container_section_pink {
         flex-direction: column-reverse;
     }
     .content_pink {
         padding: 6%;
     }
-}
-
-@media screen and (max-width:768px) {
-    .container_image {
-        height: 30vh;
-        margin: auto;
+    .content_pink p {
+        text-align: left;
+        font-size: 1rem;
     }
-    img {
-        height: 70vh;
+    .title_pink {
+        text-align: center;
+        font-size: 30px;
     }
 }

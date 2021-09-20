@@ -40,20 +40,24 @@
         flex-direction: column;
         height: 100vh;
     }
+    .container_image {
+        width: 100%;
+        padding: 0;
+    }
+    .container_image img {
+        width: 100%;
+        height: auto;
+    }
     .content_green {
         padding: 6%;
     }
     .content_green p {
         text-align: left;
+        font-size: 1rem;
     }
-}
-
-@media screen and (max-width:768px) {
-    .container_image {
-        height: 30vh;
-        margin: auto;
-    }
-    img {
-        height: 70vh;
+    .title_green {
+        font-size: 30px;
+        text-align: center;
+        line-height: 2rem;
     }
 }
