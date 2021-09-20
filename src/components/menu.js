@@ -38,7 +38,7 @@ const Menu = () => {
                     <h1 className="destino-header">Destino Coaching</h1></Link>
             </div>
             <ul className={renderClasses()}>
-                <li><AnchorLink className="nav-item" to="/About"> <b>About</b></AnchorLink></li>
+                <li><AnchorLink className="nav-item" to="/About">About</AnchorLink></li>
                 <li><AnchorLink className="nav-item" to="/Services">Coaching</AnchorLink></li>
 
                 <li><AnchorLink className="nav-item" to="/ServicesforSchools">Services for Schools</AnchorLink></li>
