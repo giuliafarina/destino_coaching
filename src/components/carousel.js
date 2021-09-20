@@ -50,7 +50,7 @@ I thoroughly recommend using Nadia to work with your teachers. " caption={"Ben J
                     Her warm and vibrant personality contributes to coaching sessions that 
                     I enjoy and look forward to. 
                     She has helped me over the past few years to find myself and be the best 
-                    version of me that I can be." caption="Stephany Hunter  - leadership coaching " pic={stephanyH} />
+                    version of me that I can be." caption="Stephany Hunter  - Headteacher" pic={stephanyH} />
                     </div>
                     <div>
                         <Card description="With you Nadia, I feel that everything is possible. 

@@ -13,7 +13,7 @@ const WhiteSection = () => {
                 <div className={styles.content_white}><h1 className={styles.title_white}>Hi, I'm Nadia</h1><br />
 
                     <p>Hi, I'm Nadia, founding director of <b>Destino Coaching</b>.</p><br />
-                    <p>I grew up in London with my Mum and brother and moved to East Anglia to take up Headship in 2015.
+                    <p>I grew up in North London and moved to East Anglia to take up Headship in 2015.
                         I now love life in the countryside and live here with my partner and two teenage children.</p><br />
                     <p>I worked in London schools for 15 years before moving East. The school I moved here to lead, was recognised as being in the bottom 2% of schools for academic performance when I arrived,
                         and the challenged that faced me, was greater than I ever imagined.</p>
