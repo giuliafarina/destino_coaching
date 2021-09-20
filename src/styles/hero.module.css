@@ -41,6 +41,7 @@
     }
     .container_content {
         flex-wrap: nowrap;
+        margin-top: 40%;
     }
     .content p {
         font-size: 1rem;
@@ -48,10 +49,15 @@
     }
     .content {
         padding: 3%;
+        margin-right: 9%;
     }
     img {
         max-width: 50vh;
         margin: auto;
+    }
+    .title {
+        margin-right: 3%;
+        line-height: 2rem;
     }
 }
 

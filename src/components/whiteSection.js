@@ -10,7 +10,7 @@ const WhiteSection = () => {
                 <img className={styles.crochet1_image} src={crochet1} />
             </div>
             <div className={styles.container_content_white}>
-                <div className={styles.content_white}><h1 className={styles.title_white}>Hi, I'm Nadia</h1>
+                <div className={styles.content_white}><h1 className={styles.title_white}>Hi, I'm Nadia</h1><br />
 
                     <p>Hi, I'm Nadia, founding director of <b>Destino Coaching</b>.</p><br />
                     <p>I grew up in London with my Mum and brother and moved to East Anglia to take up Headship in 2015.
