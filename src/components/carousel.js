@@ -7,6 +7,7 @@ import benJ from "../images/benJ.png";
 import benG from "../images/benG.png";
 import luigi from "../images/luigi.png";
 import stephanyH from "../images/stephanyH.png";
+import stephanyMc from "../images/stephanyMc.png";
 
 
 export default class Responsive extends Component {
@@ -73,7 +74,7 @@ You make me feel like the best version of myself." caption="Virginia - UX Design
                     </div>
                     <div>
                         <Card description="Nadia is an amazing life and leadership coach! She has completely changed my mindset and attitude toward what success looks like so that I have been able to rethink the pace at which I have been living my life. I now have a better work/life balance and am much happier since working with her. Her approach to coaching is kind and patient, yet always challenges me to go outside of my comfort zone. I can’t thank Nadia enough for empowering me to become a happier, more effective person in all areas of my life."
-                            caption="Stephany McAuliffe – Assistant Principal " />
+                            caption="Stephany McAuliffe – Assistant Principal" pic={stephanyMc} />
                     </div>
                     <div>
                         <Card description="Nadia’s skills as a coach empower you personally and professionally.
