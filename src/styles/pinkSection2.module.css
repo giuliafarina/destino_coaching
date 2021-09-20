@@ -44,15 +44,11 @@
     .content_pink {
         padding: 6%;
     }
-}
-
-@media screen and (max-width:768px) {
     .container_image {
         height: 100vh;
         margin: auto;
     }
     .content_pink p {
-        text-align: justify;
         font-size: 1rem;
     }
     .desk8_image {

@@ -60,6 +60,12 @@
     }
     .content_white p {
         font-size: 1rem;
-        text-align: justify;
+    }
+    .title_white {
+        text-align: center;
+    }
+    .span_pink p {
+        text-align: center;
+        font-size: 1rem;
     }
 }

@@ -23,8 +23,11 @@
 
 @media screen and (max-width:768px) {
     .card_description {
-        font-size: 1rem;
-        text-align: justify;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    .card_body {
+        width: 50vw;
     }
     .card_body img {
         height: 10vh;

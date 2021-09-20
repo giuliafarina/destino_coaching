@@ -197,10 +197,12 @@ nav {
     }
 }
 
+/* Testimonials Carousel */
+
 /* Footer section starst here */
 
 footer {
-    text-align: center;
+    text-align: center !important;
     font-size: 1.2rem;
     margin-bottom: 3vh;
     margin-top: 2vh;

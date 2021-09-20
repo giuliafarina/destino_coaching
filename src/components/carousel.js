@@ -3,7 +3,10 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import virginia from "../images/Virginia.png";
 import liz from "../images/Liz.png"
-import benJeffery from "../images/Ben Jeffery.png"
+import benJ from "../images/benJ.png";
+import benG from "../images/benG.png";
+import luigi from "../images/luigi.png";
+import stephanyH from "../images/stephanyH.png";
 
 
 export default class Responsive extends Component {
@@ -38,7 +41,7 @@ export default class Responsive extends Component {
                     <div>
                         <Card description="I used Nadia to work with a teacher who had great potential but was not yet fulfilling this. Nadia quickly earnt the teacher's trust and they worked brilliantly together. Because of this trust and the excellent relationship they quickly developed Nadia was able to work in the teacher's classroom and team teach to show exactly what she was trying to get across. This proved very effective and far more useful than being sat down in an office.
 The teacher Nadia has worked with has blossomed since working with Nadia and her confidence has grown. Most importantly of all, the quality of teaching and learning is even better.
-I thoroughly recommend using Nadia to work with your teachers. " caption={"Ben Jeffery - Headteacher Westley Middle School"} pic={benJeffery} />
+I thoroughly recommend using Nadia to work with your teachers. " caption={"Ben Jeffery - Headteacher Westley Middle School"} pic={benJ} />
 
                     </div>
                     <div>
@@ -47,7 +50,7 @@ I thoroughly recommend using Nadia to work with your teachers. " caption={"Ben J
                     Her warm and vibrant personality contributes to coaching sessions that 
                     I enjoy and look forward to. 
                     She has helped me over the past few years to find myself and be the best 
-                    version of me that I can be." caption="Stephany Hunter  - leadership coaching " />
+                    version of me that I can be." caption="Stephany Hunter  - leadership coaching " pic={stephanyH} />
                     </div>
                     <div>
                         <Card description="With you Nadia, I feel that everything is possible. 
@@ -60,7 +63,9 @@ You make me feel like the best version of myself." caption="Virginia - UX Design
                         <Card description="There's a few ingredients in Nadia's secret sauce. 
                         She can look through my words and expressions and hit all the spots I did not think mattered. 
                         Her honesty and courage to say it as it is are hugely inspiring. 
-                        The best ingredients are in her ways of working, which are focussed and objective-driven, looking at the real, practical ways of having an impact on well-trodden paths and habits. Our work is giving shape to the person I want to be and is guiding me through to being who I want to be. I wish I had we had met earlier!" caption="Luigi - Buisness Operations Manager " />
+                        The best ingredients are in her ways of working, which are focussed and objective-driven, 
+                        looking at the real, practical ways of having an impact on well-trodden paths and habits. 
+                        Our work is giving shape to the person I want to be and is guiding me through to being who I want to be. I wish I had we had met earlier!" caption="Luigi - Buisness Operations Manager " pic={luigi} />
                     </div>
                     <div>
                         <Card description="Nadia has a rare ability to listen well and to also cut quickly to the heart of an issue, saving time. I was surprised at how differently I saw the issues after coaching with her.  I honestly don't think I'd have got there alone, and most definitely not so fast.  Can't recommend highly enough."
@@ -74,7 +79,7 @@ You make me feel like the best version of myself." caption="Virginia - UX Design
                         <Card description="Nadia’s skills as a coach empower you personally and professionally.
                          Under her leadership and coaching I gained immense confidence to undertake what would have previously been difficult challenges. 
                         Prepare to answer challenging and enlightening questions you didn’t realise were that important!"
-                            caption="Ben Graham-Sharpe - Phase Leader" />
+                            caption="Ben Graham-Sharpe - Phase Leader" pic={benG} />
                     </div>
                 </Slider>
             </div>

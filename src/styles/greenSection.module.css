@@ -60,6 +60,10 @@ img {
     .content_green {
         padding: 6%;
     }
+    .content_green p {
+        text-align: left;
+        font-size: 1rem;
+    }
     .container_image {
         display: flex;
         flex-direction: column;
@@ -72,5 +76,13 @@ img {
     }
     .wrapper_section_green {
         padding: 5%;
+    }
+    .last_line {
+        font-size: 1.1rem;
+    }
+    .title_green {
+        font-size: 30px;
+        text-align: center;
+        line-height: 2rem;
     }
 }

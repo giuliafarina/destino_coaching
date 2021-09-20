@@ -35,7 +35,7 @@
 }
 
 .content_pink p {
-    text-align: justify;
+    text-align: left;
     font-size: 1.3rem;
 }
 
@@ -55,7 +55,6 @@
         padding: 6%;
     }
     .content_pink p {
-        text-align: justify;
         font-size: 1rem;
     }
     .logo_image {

@@ -43,6 +43,9 @@
     .content_green {
         padding: 6%;
     }
+    .content_green p {
+        text-align: left;
+    }
 }
 
 @media screen and (max-width:768px) {

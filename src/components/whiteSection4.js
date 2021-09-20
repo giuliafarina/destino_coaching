@@ -12,7 +12,7 @@ const WhiteSection4 = () => {
             <div className={styles.container_image}>
                 <img className={styles.desk5_image} src={desk5} />
                 <span className={styles.span_pink}>
-                    <em><a href={achieving} download><b>Download</b></a> a case study of how I supported Westley Middle School through Achieving Great</em></span>
+                    <p><em><a href={achieving} download><b>Download</b></a> a case study of how I supported Westley Middle School through Achieving Great</em></p></span>
             </div>
             <div className={styles.container_content_white}>
                 <div className={styles.content_white}><h1 className={styles.title_white}>Destino Flagship Programmes for Schools</h1>
