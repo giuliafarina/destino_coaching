@@ -46,6 +46,7 @@
 @media screen and (max-width:768px) {
     .container_section_white {
         flex-direction: column;
+        padding: 5%;
     }
     .container_image {
         height: 50vh;
