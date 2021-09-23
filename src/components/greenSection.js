@@ -37,9 +37,6 @@ const greenSection = () => {
                     </div>
 
                 </div>
-
-
-
             </div>
             <p className={styles.last_line}>In your initial consultation I will help you assess the type of coaching would best suit your needs.</p>
         </div>
