@@ -31,9 +31,9 @@ const greenSection2 = () => {
                         <p>Then we provide training, support and coaching to introduce and implement your unique coaching programme.</p><br />
                         <p>This can include coaching for pupils, staff, leaders and parents.</p><br />
                         <h1 className={styles.title_green}>Bespoke Training</h1>
-                        <p>Nadia is an experienced facilitator and provides training
+                        <p>I am an experienced facilitator and provide training
                             in leadership, curriculum, subject leadership, coaching and wellbeing.</p><br />
-                        <p>She also has extensive knowledge and experience of SEND. </p>
+                        <p>I also has extensive knowledge and experience of SEND. </p>
                     </div>
                 </div>
             </div>
