@@ -34,6 +34,13 @@ const greenSection2 = () => {
                         <p>I am an experienced facilitator and provide training
                             in leadership, curriculum, subject leadership, coaching and wellbeing.</p><br />
                         <p>I also have extensive knowledge and experience of SEND. </p>
+                        <h2>Contact</h2>
+                        <p>To find out more, please contact me to arrange a consultation call.</p>
+
+                        <p>If you are interested in coaching for yourself or for a member of your team,
+                            in the consultation call we will discuss your requirements and what type of coaching would best suit you.
+                            Coaching sessions can take place virtually or in my practice in Norfolk or in school, if that works.</p>
+                        <p> If you are interested in Destino Services for Schools, in the consultation call we will discuss your organisation’s needs and if one of the Destino Flagship programmes suit would you. We may decide to combine elements of each programme. After the consultation, you will receive a Proposal of Services for your consideration, with costings. </p>
                     </div>
                 </div>
             </div>
