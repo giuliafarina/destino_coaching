@@ -46,8 +46,9 @@ const greenSection2 = () => {
                             After the consultation, you will receive a Proposal of Services for your consideration, with costings. </p><br />
                     </div>
                 </div>
-            </div>
 
+            </div>
+            <p className={styles.last_line}>In your initial consultation I will help you assess the type of coaching that would best suit your needs.</p>
         </div>
     </>
 }
