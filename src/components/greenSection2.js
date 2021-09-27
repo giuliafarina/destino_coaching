@@ -33,18 +33,21 @@ const greenSection2 = () => {
                         <h1 className={styles.title_green}>Bespoke Training</h1>
                         <p>I am an experienced facilitator and provide training
                             in leadership, curriculum, subject leadership, coaching and wellbeing.</p><br />
-                        <p>I also have extensive knowledge and experience of SEND. </p>
-                        <h2>Contact</h2>
-                        <p>To find out more, please contact me to arrange a consultation call.</p>
+                        <p>I also have extensive knowledge and experience of SEND. </p><br />
+                        <h2 className={styles.contact}>Contact</h2><br />
+                        <p>To find out more, please contact me to arrange a consultation call.</p><br />
 
-                        <p>If you are interested in coaching for yourself or for a member of your team,
+                        <p><b>If you are interested in coaching</b> for yourself or for a member of your team,
                             in the consultation call we will discuss your requirements and what type of coaching would best suit you.
-                            Coaching sessions can take place virtually or in my practice in Norfolk or in school, if that works.</p>
-                        <p> If you are interested in Destino Services for Schools, in the consultation call we will discuss your organisation’s needs and if one of the Destino Flagship programmes suit would you. We may decide to combine elements of each programme. After the consultation, you will receive a Proposal of Services for your consideration, with costings. </p>
+                            Coaching sessions can take place virtually or in my practice in Norfolk or in school, if that works.</p><br />
+                        <p> <b>If you are interested in <em>Destino Services for Schools</em></b>,
+                            in the consultation call we will discuss your organisation’s needs and if one of the Destino Flagship programmes suit would you.
+                            We may decide to combine elements of each programme.
+                            After the consultation, you will receive a Proposal of Services for your consideration, with costings. </p><br />
                     </div>
                 </div>
             </div>
-            <p className={styles.last_line}>In your initial consultation I will help you assess the type of coaching would best suit your needs.</p>
+
         </div>
     </>
 }

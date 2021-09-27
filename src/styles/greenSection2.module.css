@@ -95,3 +95,9 @@ img {
         line-height: 2rem;
     }
 }
+
+.contact {
+    margin-top: 10%;
+    border-bottom: solid;
+    width: fit-content;
+}
