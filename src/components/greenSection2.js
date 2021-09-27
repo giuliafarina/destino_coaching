@@ -33,7 +33,7 @@ const greenSection2 = () => {
                         <h1 className={styles.title_green}>Bespoke Training</h1>
                         <p>I am an experienced facilitator and provide training
                             in leadership, curriculum, subject leadership, coaching and wellbeing.</p><br />
-                        <p>I also has extensive knowledge and experience of SEND. </p>
+                        <p>I also have extensive knowledge and experience of SEND. </p>
                     </div>
                 </div>
             </div>
