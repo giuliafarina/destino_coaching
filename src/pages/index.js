@@ -13,9 +13,6 @@ const IndexPage = () => {
       <Hero idProp="Hero" />
       <ServicesPrev idProp="ServicesPrev" />
       <GreenPrev idProp="GreenPrev" />
-
-
-
     </Layout>
   )
 

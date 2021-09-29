@@ -9,7 +9,7 @@ import luigi from "../images/luigi.png";
 import stephanyH from "../images/stephanyH.png";
 import stephanyMc from "../images/stephanyMc.png";
 import kateW from "../images/kateW.png";
-
+import louise from "../images/louise.png";
 
 export default class Responsive extends Component {
     render() {
@@ -72,6 +72,10 @@ You make me feel like the best version of myself." caption="Virginia - UX Design
                     <div>
                         <Card description="Nadia has a rare ability to listen well and to also cut quickly to the heart of an issue, saving time. I was surprised at how differently I saw the issues after coaching with her.  I honestly don't think I'd have got there alone, and most definitely not so fast.  Can't recommend highly enough."
                             caption="Kate Wilson - Head of Department " pic={kateW} />
+                    </div>
+                    <div>
+                        <Card description="Coaching with Nadia has made a huge impact on my professional growth. I love having my thinking challenged! I have become comfortable with feeling uncomfortable in a safe and confidential environment. Thank you Nadia"
+                            caption="Louise Scott HT - Executive Headteacher " pic={louise} />
                     </div>
                     <div>
                         <Card description="Nadia is an amazing life and leadership coach! She has completely changed my mindset and attitude toward what success looks like so that I have been able to rethink the pace at which I have been living my life. I now have a better work/life balance and am much happier since working with her. Her approach to coaching is kind and patient, yet always challenges me to go outside of my comfort zone. I can’t thank Nadia enough for empowering me to become a happier, more effective person in all areas of my life."
