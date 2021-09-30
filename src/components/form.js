@@ -8,7 +8,7 @@ const Form = () => {
             <h1>Let's chat!</h1><br />
             <p>Please contact me if you would like to book a consultation call.
                 Use this form to send me a message and we'll arrange a meeting.</p><br />
-            <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/ThankYou">
+            <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
                 <label for="fname">Name</label><br />
