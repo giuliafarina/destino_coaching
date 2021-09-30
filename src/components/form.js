@@ -8,7 +8,7 @@ const Form = () => {
             <h1>Let's chat!</h1><br />
             <p>Please contact me if you would like to book a consultation call.
                 Use this form to send me a message and we'll arrange a meeting.</p><br />
-            <form action="mailto:nadia_destino@outlook.com" method="post">
+            <form name="contact" action="mailto:giuliafarina88@gmail.com" method="post" data-netlify="true">
                 <label for="fname">Name</label><br />
                 <input type="text" id="fname" name="fname" placeholder="Type in your name"></input><br />
                 <label for="email">Email</label><br />
