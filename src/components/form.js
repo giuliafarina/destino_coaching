@@ -15,7 +15,7 @@ const Form = () => {
                 <input type="email" id="email" name="email" placeholder="Type in your email"></input><br />
                 <label for="message">Message</label><br />
                 <textarea id="message" name="message" placeholder="Type in your message"></textarea><br />
-                <input className={styles.submit_button} type="submit" value="Submit" />
+                <input className={styles.submit_button} type="submit" value="submit" />
 
             </form></div>
     </>
