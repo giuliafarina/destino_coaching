@@ -10,7 +10,7 @@ const PinkSection2 = () => {
     return <>
         <div className={styles.container_section_pink}>
             <div className={styles.container_image}>
-                <img className={styles.desk8_image} src={desk8} />
+                <img className={styles.desk8_image} src={desk8} alt="" />
 
             </div>
             <div className={styles.container_content_pink}>

@@ -10,10 +10,10 @@ const WhiteSection2 = () => {
     return <>
         <div className={styles.container_section_white}>
             <div className={styles.container_image}>
-                <img className={styles.nadia_daughter_image} src={nadia_daughter} />  </div>
+                <img className={styles.nadia_daughter_image} src={nadia_daughter} alt="" />  </div>
             <div className={styles.container_image2}>
-                <img className={styles.crochet2_image} src={crochet2} />
-                <img className={styles.beach1_image} src={beach1} />  </div>
+                <img className={styles.crochet2_image} src={crochet2} alt="" />
+                <img className={styles.beach1_image} src={beach1} alt="" />  </div>
 
             <div className={styles.container_content_white}>
                 <div className={styles.content_white}>

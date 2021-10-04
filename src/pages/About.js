@@ -16,12 +16,6 @@ const About = () => {
         <PinkSection />
         <Testimonials />
         <Form />
-
-
-
-
-
-
     </Layout>
 }
 

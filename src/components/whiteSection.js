@@ -7,7 +7,7 @@ const WhiteSection = () => {
     return <>
         <div className={styles.container_section_white}>
             <div className={styles.container_image}>
-                <img className={styles.crochet1_image} src={crochet1} />
+                <img className={styles.crochet1_image} src={crochet1} alt="" />
             </div>
             <div className={styles.container_content_white}>
                 <div className={styles.content_white}><h1 className={styles.title_white}>Hi, I'm Nadia</h1><br />

@@ -85,7 +85,7 @@ nav {
     width: fit-content;
 }
 
-@media screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
     body {
         overflow-x: hidden;
     }
@@ -188,7 +188,7 @@ nav {
     align-content: space-around;
 }
 
-@media screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
     .container_section_white {
         flex-direction: column;
     }

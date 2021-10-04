@@ -10,7 +10,7 @@ const WhiteSection5 = () => {
     return <>
         <div className={styles.container_section_white}>
             <div className={styles.container_image}>
-                <img className={styles.crochet3_image} src={crochet3} />
+                <img className={styles.crochet3_image} src={crochet3} alt="" />
 
             </div>
             <div className={styles.container_content_white}>

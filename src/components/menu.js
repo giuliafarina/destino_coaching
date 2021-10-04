@@ -34,7 +34,7 @@ const Menu = () => {
 
             <div className="logo">
                 <Link className="logo_link" to="/">
-                    <img className="destino_logo" src={logo}></img>
+                    <img className="destino_logo" src={logo} alt="logo links to homepage"></img>
                     <h1 className="destino-header">Destino Coaching</h1></Link>
             </div>
             <ul className={renderClasses()}>

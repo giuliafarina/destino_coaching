@@ -10,14 +10,9 @@ const greenSection2 = () => {
         <div className={styles.wrapper_section_green}>
             <div className={styles.container_section_green}>
                 <div className={styles.container_image}>
-
-
-                    <img className={styles.desk6_image} src={desk6} />
-
-                    <img className={styles.desk7_image} src={desk7} />
-
+                    <img className={styles.desk6_image} src={desk6} alt="" />
+                    <img className={styles.desk7_image} src={desk7} alt="" />
                 </div>
-
                 <div className={styles.container_content_green}>
                     <div className={styles.content_green}>
                         <h1 className={styles.title_green}>Staff Wellbeing Programme</h1>

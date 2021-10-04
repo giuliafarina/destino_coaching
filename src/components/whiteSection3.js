@@ -7,7 +7,7 @@ const WhiteSection3 = () => {
     return <>
         <div className={styles.container_section_white}>
             <div className={styles.container_image}>
-                <img className={styles.whiteboard_image} src={whiteboard} />
+                <img className={styles.whiteboard_image} src={whiteboard} alt="" />
             </div>
             <div className={styles.container_content_white}>
                 <div className={styles.content_white}><h1 className={styles.title_white}>What I do</h1>

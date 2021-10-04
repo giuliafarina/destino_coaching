@@ -8,7 +8,7 @@ const GreenPrev = ({ idProp }) => {
     return <>
         <div className={styles.container_section_green} id={idProp}>
             <div className={styles.container_image}>
-                <img className={styles.desk_image} src={desk2} /></div>
+                <img className={styles.desk_image} src={desk2} alt="" /></div>
             <div className={styles.container_content_green}>
                 <div className={styles.content_green}><h1 className={styles.title_green}>Services for Schools</h1>
                     <p> I offer a range of different services to my clients to best meet their needs. <br /></p>

@@ -8,9 +8,9 @@ const pinkSection = () => {
     return <>
         <div className={styles.container_section_pink}>
             <div className={styles.container_image}>
-                <img className={styles.logo_image} src={logo} />
+                <img className={styles.logo_image} src={logo} alt="logo image" />
                 <figcaption className={styles.caption}>The Destino Coaching Logo</figcaption>
-                <img className={styles.paperbook_image} src={paperbook} />
+                <img className={styles.paperbook_image} src={paperbook} alt="" />
 
             </div>
 
