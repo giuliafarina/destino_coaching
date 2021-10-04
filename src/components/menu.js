@@ -44,7 +44,7 @@ const Menu = () => {
                 <li><AnchorLink className="nav-item" to="/ServicesforSchools">Services for Schools</AnchorLink></li>
                 <li><AnchorLink className="nav-item" to="/Contacts">Contacts </AnchorLink></li>
             </ul>
-            <div onClick={handleToggle} className="hamburger" role="button">
+            <div onClick={handleToggle} onKeyDown={handleToggle} tabIndex={0} className="hamburger" role="button">
                 <div className="line1"></div>
                 <div className="line2"></div>
                 <div className="line3"></div>

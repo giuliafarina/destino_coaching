@@ -4,7 +4,7 @@ import * as styles from "../styles/card.module.css"
 
 
 const Card = (props) => {
-    return <div className={styles.card_body}><img src={props.pic} />
+    return <div className={styles.card_body}><img src={props.pic} alt="testimonial" />
 
         <figcaption className={styles.card_caption}>
             {props.caption}
