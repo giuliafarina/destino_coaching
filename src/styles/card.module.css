@@ -25,6 +25,7 @@
     .card_description {
         font-size: 0.8rem;
         text-align: left;
+        line-height: normal;
     }
     .card_body img {
         height: 10vh;
