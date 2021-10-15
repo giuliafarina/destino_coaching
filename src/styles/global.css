@@ -71,7 +71,7 @@ nav {
     display: flex;
     list-style-type: none;
     width: 40%;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 20%;
 }
 
@@ -85,7 +85,7 @@ nav {
     width: fit-content;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-device-width:768px) {
     body {
         overflow-x: hidden;
     }
