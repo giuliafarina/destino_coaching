@@ -1,5 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout";
+import { graphql } from "gatsby";
+import get from 'lodash/get'
 
 import ServicesPrev from "../components/ServicesPrev";
 import Hero from "../components/hero";

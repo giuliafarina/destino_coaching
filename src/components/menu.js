@@ -38,10 +38,11 @@ const Menu = () => {
                     <h1 className="destino-header">Destino Coaching</h1></Link>
             </div>
             <ul className={renderClasses()}>
-                <li><Link className="nav-item" to="/About">About</Link></li>
-                <li><Link className="nav-item" to="/Services">Coaching</Link></li>
-                <li><Link className="nav-item" to="/ServicesforSchools">Services for Schools</Link></li>
-                <li><Link className="nav-item" to="/Contacts">Contacts </Link></li>
+                <li><AnchorLink className="nav-item" to="/About">About</AnchorLink></li>
+                <li><AnchorLink className="nav-item" to="/Services">Coaching</AnchorLink></li>
+                <li><AnchorLink className="nav-item" to="/ServicesforSchools">Services for Schools</AnchorLink></li>
+                <li><AnchorLink className="nav-item" to="/Contacts">Contacts </AnchorLink></li>
+                <li><Link to="https://blog.destinocoaching.co.uk/">Blog</Link></li>
             </ul>
             <div onClick={handleToggle} onKeyDown={handleToggle} tabIndex={0} className="hamburger" role="button">
                 <div className="line1"></div>

@@ -19,11 +19,16 @@ const WhiteSection4 = () => {
 
                     <h1 className={styles.title_white}><b>Achieving Great Programme</b></h1>
                     <p>Designed to support new or promising teachers, who need that extra bit of support to secure great teaching, every day.
-                        Nadia works alongside the teacher as an instructional coach.</p><br />
-                    <p> The package includes:
-                        <ul><li>Three days direct work in school</li>
-                            <li>Day meeting time with teacher and/or line manager</li>
-                            <li> Written report and further recommendations</li></ul></p><br />
+                        Nadia works alongside the teacher as an instructional coach.
+                    </p>
+                    <br />
+                    <p>The package includes:</p>
+                    <ul>
+                        <li>Three days direct work in school</li>
+                        <li>Day meeting time with teacher and/or line manager</li>
+                        <li> Written report and further recommendations</li>
+                    </ul>
+                    <br />
                     <p>We identify goals with the teacher and their line manager and then nadia observes,
                         team-teaches and uses role play and live feedback to coach the teacher through improving practice in the classroom.</p><br />
 

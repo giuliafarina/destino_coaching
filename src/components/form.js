@@ -11,11 +11,11 @@ const Form = () => {
             <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
-                <label for="fname" aria-labelledby="fname" htmlFor="fname">Name</label><br />
+                <label aria-labelledby="fname" htmlFor="fname">Name</label><br />
                 <input type="text" id="fname" name="fname" placeholder="Type in your name"></input><br />
-                <label for="email" aria-labelledby="email" htmlFor="email">Email</label><br />
+                <label aria-labelledby="email" htmlFor="email">Email</label><br />
                 <input type="email" id="email" name="email" placeholder="Type in your email"></input><br />
-                <label for="message" aria-labelledby="message" htmlFor="message">Message</label><br />
+                <label aria-labelledby="message" htmlFor="message">Message</label><br />
                 <textarea id="message" name="message" placeholder="Type in your message"></textarea><br />
                 <input className={styles.submit_button} type="submit" value="Submit" />
 
