@@ -14,16 +14,7 @@ const Services = () => {
         <WhiteSection3 />
         <GreenSection />
         <Form />
-
-
-
-
-
-
-
     </Layout>
-
-
 }
 
 export default Services;
