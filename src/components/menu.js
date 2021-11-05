@@ -2,12 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { Link } from "gatsby";
-
 import logo from "../images/destino.svg";
-
-
-
-
 
 
 const Menu = () => {

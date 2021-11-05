@@ -32,12 +32,13 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.destinocoaching.co.uk",
     title: "Destino-Coaching",
   },
   plugins: [
     `gatsby-plugin-anchor-links`,
     "gatsby-transformer-remark",
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-contentful`,
       options: {

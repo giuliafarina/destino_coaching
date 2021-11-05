@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
             <Menu />
             {children}
             <Scroll />
-
             <Footer />
         </div>
     )
