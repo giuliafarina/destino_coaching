@@ -1,6 +1,6 @@
 .card_body {
-    padding: 5%;
-    margin: 7% 15%;
+    padding: 7%;
+    margin: 7%;
     background-color: #FFF6F6;
 }
 
@@ -12,13 +12,27 @@
 
 .card_description {
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.card_description p::before {
+    content: "\"";
+}
+
+.card_description p::after {
+    content: "\"";
 }
 
 .card_caption {
     font-weight: bold;
     font-style: italic;
     text-align: center;
+    padding-bottom: 1rem;
+}
+
+.slick-dots {
+    position: relative!important;
+    padding: 5%;
 }
 
 @media screen and (max-width:768px) {
@@ -30,5 +44,8 @@
     .card_body img {
         height: 10vh;
         width: 10vh;
+    }
+    .card_body {
+        margin: 7% 2%;
     }
 }

@@ -4,10 +4,11 @@ import { useStaticQuery, graphql } from "gatsby";
 import Slider from "react-slick";
 
 
-const Responsive = () => {
+const Carousel = () => {
 
-    const settings = {
+    const sliderSettings = {
         dots: true,
+        dotsClass: "slider-dots",
         infinite: true,
         speed: 500,
         slidesToShow: 2,
@@ -19,7 +20,8 @@ const Responsive = () => {
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
-            }]
+            }
+        ]
     };
 
     const data = useStaticQuery(graphql`
@@ -29,7 +31,7 @@ const Responsive = () => {
                     name
                     description {
                         childMarkdownRemark{
-                               rawMarkdownBody
+                            html
                         }
                     }
                     picture {
@@ -44,11 +46,11 @@ const Responsive = () => {
 
     return (
         <div>
-            <Slider {...settings}>
+            <Slider {...sliderSettings}>
                 {data.allContentfulTestimonial.nodes.map(node =>
                     <Card
                         key={node.name}
-                        description={node.description.childMarkdownRemark.rawMarkdownBody}
+                        description={node.description.childMarkdownRemark.html}
                         caption={node.name}
                         pic={node.picture.file.url}
                     />)}
@@ -57,4 +59,4 @@ const Responsive = () => {
     );
 }
 
-export default Responsive;
+export default Carousel;
