@@ -28,6 +28,7 @@ const Carousel = () => {
         query TestimonalQuery {
             allContentfulTestimonial {
                 nodes {
+                    id
                     name
                     description {
                         childMarkdownRemark{
@@ -49,7 +50,7 @@ const Carousel = () => {
             <Slider {...sliderSettings}>
                 {data.allContentfulTestimonial.nodes.map(node =>
                     <Card
-                        key={node.name}
+                        key={node.id}
                         description={node.description.childMarkdownRemark.html}
                         caption={node.name}
                         pic={node.picture.file.url}
