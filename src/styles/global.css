@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@
 
 .layout {
     font-family: 'Jost', sans-serif;
-    letter-spacing: 0.17rem;
+    letter-spacing: 0.11rem;
     margin: 0 auto;
     padding: 0;
     color: #304240;
@@ -92,6 +93,7 @@ nav {
         height: 3px;
         margin: 5px;
     }
+
     .line2 {
         background-color: #3C5350;
         width: 30px;
@@ -99,32 +101,39 @@ nav {
         margin: 5px;
         ;
     }
+
     .line3 {
         background-color: #3C5350;
         width: 30px;
         height: 3px;
         margin: 5px;
     }
+
     nav {
         margin: 0 auto;
         display: flex;
         height: 4vh;
         width: 100%;
     }
+
     .layout nav+div {
         padding-top: 14vh;
     }
+
     .logo {
         align-items: flex-start;
         justify-content: flex-start;
     }
+
     .destino_logo {
         max-width: 25%;
         margin-left: 10%;
     }
+
     .destino-header {
         display: none;
     }
+
     .hamburger {
         cursor: pointer;
         right: 5%;
@@ -132,9 +141,11 @@ nav {
         margin-top: 6%;
         margin-right: 10%;
     }
+
     .nav-links {
         display: none;
     }
+
     .active {
         /* transform: translateX(0%); */
         display: flex;
@@ -190,6 +201,7 @@ nav {
     .container_section_white {
         flex-direction: column;
     }
+
     .button {
         font-size: 1rem;
     }
@@ -288,6 +300,9 @@ svg {
 
 .copyright {
     border-bottom: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .credits a {
@@ -333,4 +348,10 @@ svg {
     .social svg {
         width: 2.2rem;
     }
+}
+
+.logoHT {
+    max-width: 50px;
+    padding: 4px;
+
 }
