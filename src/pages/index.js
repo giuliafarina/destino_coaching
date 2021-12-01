@@ -22,14 +22,16 @@ const IndexPage = () => {
           <title>Destino Coaching</title>
           <link rel="icon" type="image/svg+xml" href={favicon} />
           {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GK3K3CEFC"></script>
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-213980477-1"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){`dataLayer.push(arguments);`}
             gtag('js', new Date());
 
-            gtag('config', 'G-4GK3K3CEFC');
+            gtag('config', 'UA-213980477-1');
           </script>
+
         </head>
       </Helmet>
       <Layout>
