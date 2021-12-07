@@ -37,7 +37,7 @@ const Menu = () => {
                 <li><AnchorLink className="nav-item" to="/Services">Coaching</AnchorLink></li>
                 <li><AnchorLink className="nav-item" to="/ServicesforSchools">Services for Schools</AnchorLink></li>
                 <li><AnchorLink className="nav-item" to="/Contacts">Contacts </AnchorLink></li>
-                <li><a href="https://blog.destinocoaching.co.uk/">Blog</a></li>
+                <li><a className="nav-item" href="https://blog.destinocoaching.co.uk/">Blog</a></li>
             </ul>
             <div onClick={handleToggle} onKeyDown={handleToggle} tabIndex={0} className="hamburger" role="button">
                 <div className="line1"></div>
