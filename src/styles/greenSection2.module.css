@@ -19,18 +19,20 @@
     margin-top: 3%;
 }
 
-img {
-    border-radius: 0;
-}
+
 
 .desk6_image {
     width: 30vw;
     padding-right: 0;
+    border-radius: 5%;
+
 }
 
 .desk7_image {
     width: 30vw;
     padding-right: 0;
+    border-radius: 5%;
+
 }
 
 .content_green {
@@ -64,31 +66,39 @@ img {
     .container_section_green {
         flex-direction: column;
     }
+
     .content_green {
         padding: 6%;
     }
+
     .content_green p {
         font-size: 1rem;
     }
+
     .container_image {
         display: flex;
         flex-direction: column;
         padding: 5%;
     }
+
     .desk6_image {
         width: 100%;
         height: auto;
     }
+
     .desk7_image {
         width: 100%;
         height: auto;
     }
+
     .wrapper_section_green {
         padding: 0;
     }
+
     .last_line {
         font-size: 1.1rem;
     }
+
     .title_green {
         font-size: 30px;
         text-align: center;

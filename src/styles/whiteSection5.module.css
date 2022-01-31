@@ -27,6 +27,7 @@
 .crochet3_image {
     height: 30vw;
     padding-right: 0;
+    border-radius: 5%
 }
 
 .title_white {
@@ -42,6 +43,7 @@
     .container_section_white {
         flex-direction: column;
     }
+
     .content_white {
         padding: 6%;
     }
@@ -53,17 +55,21 @@
         margin: auto;
         padding: 4% 0;
     }
+
     .crochet3_image {
         max-width: 100%;
         height: auto;
     }
+
     .content_white {
         padding: 6%;
     }
+
     .content_white p {
         font-size: 1rem;
         text-align: justify;
     }
+
     .title_white {
         text-align: center;
     }

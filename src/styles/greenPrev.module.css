@@ -14,7 +14,7 @@
 }
 
 .content_green p {
-    text-align: justify;
+
     font-size: 1.3rem;
 }
 
@@ -40,21 +40,26 @@
         flex-direction: column;
         height: 80vh;
     }
+
     .container_image {
         width: 100%;
         padding: 0;
     }
+
     .container_image img {
         width: 100%;
         height: auto;
     }
+
     .content_green {
         padding: 6%;
     }
+
     .content_green p {
         text-align: left;
         font-size: 1rem;
     }
+
     .title_green {
         font-size: 30px;
         text-align: center;

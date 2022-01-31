@@ -10,8 +10,6 @@ const ServicesforSchools = () => {
     return <Layout>
         <WhiteSection4 />
         <GreenSection2 />
-        <Form />
-
     </Layout>
 }
 

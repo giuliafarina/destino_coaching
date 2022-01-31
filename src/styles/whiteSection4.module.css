@@ -27,11 +27,16 @@
 .desk5_image {
     height: 30vw;
     padding-right: 0;
+    border-radius: 5%
 }
 
 .span_pink {
     background-color: #DED4D5;
     padding: 5%;
+}
+
+.span_pink a {
+    text-decoration: underline;
 }
 
 .title_white_big {
@@ -58,23 +63,30 @@
         flex-direction: column;
         padding: 5%;
     }
+
     .container_image {
         height: 50vh;
         margin: auto;
     }
+
     .desk5_image {
         max-width: 100%;
         height: auto;
+
     }
+
     .content_white {
         padding: 6%;
     }
+
     .content_white p {
         font-size: 1rem;
     }
+
     .title_white {
         text-align: center;
     }
+
     .span_pink p {
         text-align: center;
         font-size: 1rem;

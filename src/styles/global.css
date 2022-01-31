@@ -79,6 +79,7 @@ nav {
 .nav-item {
     font-size: 1rem;
     color: #304240;
+    padding: 7px;
 }
 
 .nav-item:hover {

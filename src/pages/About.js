@@ -13,7 +13,6 @@ const About = () => {
         <WhiteSection2 />
         <PinkSection />
         <Testimonials />
-        <Form />
     </Layout>
 }
 

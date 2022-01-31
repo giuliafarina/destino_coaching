@@ -13,7 +13,6 @@ const Services = () => {
     return <Layout>
         <WhiteSection3 />
         <GreenSection />
-        <Form />
     </Layout>
 }
 

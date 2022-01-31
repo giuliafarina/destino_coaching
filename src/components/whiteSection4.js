@@ -17,7 +17,7 @@ const WhiteSection4 = () => {
             <div className={styles.container_content_white}>
                 <div className={styles.content_white}><h1 className={styles.title_white_big}>Destino Flagship Programmes for Schools</h1>
 
-                    <h1 className={styles.title_white}><b>Achieving Great Programme</b></h1>
+                    <h1 className={styles.title_white}><b>"Achieving Great" Programme</b></h1>
                     <p>Designed to support new or promising teachers, who need that extra bit of support to secure great teaching, every day.
                         Nadia works alongside the teacher as an instructional coach.
                     </p>

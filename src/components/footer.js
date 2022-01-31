@@ -18,7 +18,7 @@ const Footer = () => {
                 <a className="twitterIcon" href="https://twitter.com/DestinoNadia"><AiFillTwitterSquare alt="twitter link" /></a>
                 <a className="facebookIcon" href="https://www.facebook.com/NadiaDestino"><IoLogoFacebook alt="facebook link" /></a></p>
             <div className="container_credits"><p className="credits"><p className="copyright"><b>© Destino Coaching 2021</b>
-                <img className="logoHT" src={logoHT} /><img className="logoICF" src={logoICF} /></p>Design: <a href="https://www.linkedin.com/in/virginia-b-7188b15a">Virginia Broadhead</a>  <br />Coding: <a href="https://www.giuliafarina.com">Giulia Farina</a> <br />Photo credits: <a href="https://www.emmacullenphotography.com/">Emma Cullen</a></p></div>
+                <img className="logoHT" src={logoHT} /><img className="logoICF" src={logoICF} /></p>Design: <a href="https://www.vbroadheadux.com">Virginia Broadhead</a>  <br />Coding: <a href="https://www.giuliafarina.com">Giulia Farina</a> <br />Photo credits: <a href="https://www.emmacullenphotography.com/">Emma Cullen</a></p></div>
         </footer>
     )
 }

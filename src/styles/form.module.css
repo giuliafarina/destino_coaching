@@ -1,3 +1,7 @@
+a.mail:hover {
+    color: rosybrown;
+}
+
 ::placeholder {
     font-family: jost;
     color: #78A5A0;
@@ -53,16 +57,20 @@ input.submit_button {
         height: 30px;
         ;
     }
+
     textarea {
         width: 200px;
         height: 100px;
     }
+
     ::placeholder {
         font-size: 0.9rem;
     }
+
     label {
         font-size: 1rem;
     }
+
     input.submit_button {
         font-size: 1rem;
     }
