@@ -16,6 +16,7 @@
 .paperbook_image {
     width: 75vh;
     margin-top: 20%;
+    border-radius: 5%;
 }
 
 .logo_image {
@@ -51,19 +52,24 @@
     .container_section_pink {
         flex-direction: column;
     }
+
     .content_pink {
         padding: 6%;
     }
+
     .content_pink p {
         font-size: 1rem;
     }
+
     .logo_image {
         width: 50%;
     }
+
     .paperbook_image {
         width: 100%;
         height: auto;
     }
+
     .container_image {
         margin: 0;
     }
